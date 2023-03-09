@@ -1,0 +1,61 @@
+.aboutMe {
+  overflow-y: scroll;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.aboutMe h2 {
+  font-size: 6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutMe h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aboutMe p {
+  font-size: 2rem;
+}
+
+.aboutMeHeader {
+  height: 95%;
+}
+
+.aboutMeContent {
+  width: 85%;
+  margin: auto;
+}
+
+.typewriter h2 {
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.05em solid #033495; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto;
+  letter-spacing: 0em; /* Adjust as needed */
+  animation: typing 2s steps(18, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #033495;
+  }
+}

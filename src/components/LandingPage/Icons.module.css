@@ -1,0 +1,10 @@
+.icons {
+  position: absolute;
+  z-index: 1;
+}
+
+.icons a {
+  color: black;
+  text-decoration: none;
+  cursor: auto;
+}

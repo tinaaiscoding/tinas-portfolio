@@ -1,0 +1,54 @@
+.window {
+  background: white;
+  box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
+  border-radius: 10px;
+  z-index: 3;
+  position: absolute;
+  border: 2px solid #46467A;
+  width: 45%;
+  height: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.actionBar {
+  background-color: #7766c6;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom: 2px solid #46467A;
+  height: max-content;
+}
+
+.circleFill {
+  border-radius: 100%;
+  font-size: 1rem;
+  margin: 8px 3px;
+  border: 1px solid #46467A;
+}
+
+.red {
+  color: rgb(255, 95, 87);
+}
+
+.red:hover {
+  color: rgb(251, 127, 121);
+}
+
+.amber {
+  color: rgb(255, 188, 46);
+}
+
+.amber:hover {
+  color: rgb(255, 205, 98);
+}
+
+.green {
+  color: rgb(40, 200, 65);
+}
+
+.green:hover {
+  color: rgb(91, 214, 109);
+}
+
+
