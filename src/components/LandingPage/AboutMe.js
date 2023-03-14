@@ -11,6 +11,12 @@ const AboutMe = () => {
         </div>
       </div>
 
+      <span
+        className={`material-symbols-outlined ${classes.bounceArrow} ${classes.bounce}`}
+      >
+        expand_more
+      </span>
+
       <section className={classes.aboutMeContent}>
         <h3>ABOUT ME</h3>
         <p>
