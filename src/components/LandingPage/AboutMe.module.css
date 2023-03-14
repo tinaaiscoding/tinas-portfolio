@@ -5,10 +5,10 @@
 
 .aboutMe h2 {
   font-size: 6rem;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .aboutMe h3 {
@@ -19,9 +19,9 @@
 .aboutMe p {
   font-size: 2rem;
 }
-
 .aboutMeHeader {
-  height: 95%;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutMeContent {
@@ -30,13 +30,11 @@
 }
 
 .typewriter h2 {
-  display: block;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.05em solid #033495; /* The typewriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
+  overflow: hidden;
+  border-right: 0.1em solid #033495;
+  white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0em; /* Adjust as needed */
-  animation: typing 2s steps(18, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */

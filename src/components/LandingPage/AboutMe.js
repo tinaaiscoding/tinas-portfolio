@@ -5,8 +5,10 @@ import classes from './AboutMe.module.css';
 const AboutMe = () => {
   return (
     <Window className={classes.aboutMe}>
-      <div className={`${classes.typewriter} ${classes.aboutMeHeader}`}>
-        <h2>Hi, I'm Tina!</h2>
+      <div className={classes.aboutMeHeader}>
+        <div className={classes.typewriter}>
+          <h2>Hi, I'm Tina!</h2>
+        </div>
       </div>
 
       <section className={classes.aboutMeContent}>
