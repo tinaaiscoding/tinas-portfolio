@@ -23,7 +23,9 @@
 }
 
 .aboutMeContent p {
-  font-size: 2rem;
+  font-size: 1.7rem;
+  line-height: 45px;
+  padding: 20px 6px;
 }
 
 .typewriter h2 {

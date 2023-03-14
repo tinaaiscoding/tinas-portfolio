@@ -1,8 +1,8 @@
 import React from 'react'
 
-import classes from './Icon.module.css'
+import classes from './DesktopIcon.module.css'
 
-const Icon = (props) => {
+const DesktopIcon = (props) => {
   return (
     <div className={classes.iconWrapper}>
       <img className={classes.icon} src={props.imgSrc} alt='Folder'/>
@@ -11,4 +11,4 @@ const Icon = (props) => {
   )
 }
 
-export default Icon
+export default DesktopIcon

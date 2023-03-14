@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import TilesBg from './components/UI/TilesBg';
-import AboutMe from './components/LandingPage/AboutMe';
-import Icons from './components/LandingPage/Icons';
+
+import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Icons />
-      <AboutMe />
-      <TilesBg />
+      <LandingPage />
     </div>
   );
 }

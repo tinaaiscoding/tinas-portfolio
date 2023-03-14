@@ -20,26 +20,32 @@ const AboutMe = () => {
       <section className={classes.aboutMeContent}>
         <h3>ABOUT ME</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum
-          pulvinar etiam non quam lacus suspendisse faucibus. Non quam lacus
-          suspendisse faucibus interdum posuere lorem. Auctor urna nunc id
-          cursus metus aliquam eleifend. Nunc consequat interdum varius sit amet
-          mattis vulputate enim. Egestas purus viverra accumsan in nisl nisi
-          scelerisque eu. Arcu non sodales neque sodales ut etiam sit. Sit amet
-          mauris commodo quis imperdiet massa tincidunt. Phasellus egestas
-          tellus rutrum tellus pellentesque.
+          Having built my professional skills in customer experience roles and
+          the hospitality industry over the past 10 years, I decided it was time
+          for my next adventure.
         </p>
-        <br />
+
         <p>
-          Cursus in hac habitasse platea dictumst. Quis hendrerit dolor magna
-          eget est lorem ipsum. Id leo in vitae turpis massa sed elementum
-          tempus egestas. Sed libero enim sed faucibus turpis in eu mi. Mauris
-          cursus mattis molestie a iaculis. Amet cursus sit amet dictum sit amet
-          justo. Venenatis urna cursus eget nunc scelerisque viverra mauris in
-          aliquam. Egestas purus viverra accumsan in nisl nisi scelerisque.
-          Maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-          scelerisque viverra mauris.
+          That's how I discovered my love for coding. It has naturally become
+          something I look forward to every day. I enjoy the feeling of
+          accomplishment every time I get a piece of code to work, and the
+          chance to apply my creative thinking skills. This led me to enrol in a
+          software engineering bootcamp at General Assembly.
+        </p>
+
+        <p>
+          As a software engineer, I aspire to create beautiful and fun designs.
+          I want to create meaningful work that makes people smile and have a
+          useful impact on their business. To have a proud moment to say, “Yea,
+          I made all that!”
+        </p>
+
+        <p>
+          I love exploring new things whether that'd be food, places to travel,
+          hobbies, skills, ways of thinking, or ways of working. I have really
+          enjoyed my experience living and working in the UK and I'm open to any
+          opportunities for work in Europe. I take lots of inspiration from
+          others and hope to work with a supportive and open team.
         </p>
       </section>
     </Window>
