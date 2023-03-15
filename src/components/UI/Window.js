@@ -16,7 +16,8 @@ const Window = (props) => {
           className={`pi pi-circle-fill ${classes.green} ${classes.circleFill}`}
         ></span>
       </div>
-      <div className={classes.windowContent}>{props.children}</div>
+      
+      {props.children}
     </div>
   );
 };

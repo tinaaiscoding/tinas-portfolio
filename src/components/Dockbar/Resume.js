@@ -10,7 +10,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 const Resume = () => {
   return (
     <Window className={classes.resume}>
-      <img src={resume} alt="" />
+      <img className={classes.resumeSvg} src={resume} alt="" />
     </Window>
   )
 }

@@ -12,11 +12,6 @@
   transform: translate(-50%, -50%);
 }
 
-.windowContent {
-  overflow-y: scroll;
-  height: 90%;
-}
-
 .actionBar {
   background-color: #7766c6;
   border-top-right-radius: 8px;
@@ -27,13 +22,14 @@
 
 .circleFill {
   border-radius: 100%;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 8px 3px;
   border: 1px solid #46467A;
 }
 
 .red {
   color: rgb(255, 95, 87);
+  margin-left: 10px;
 }
 
 .red:hover {

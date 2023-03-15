@@ -1,12 +1,14 @@
 .aboutMe {
   font-family: 'Roboto Mono', monospace;
+  height: 90%;
+  overflow-y: scroll;
 }
 
 .aboutMeHeader {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85%;
+  height: 86%;
 }
 
 .aboutMeContent {
@@ -25,8 +27,8 @@
 
 .aboutMeContent p {
   font-size: 1rem;
-  line-height: 45px;
-  padding: 20px 6px;
+  line-height: 32px;
+  padding: 0 6px 20px;
 }
 
 .typewriter h2 {
