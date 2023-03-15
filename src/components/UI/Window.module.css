@@ -12,6 +12,11 @@
   transform: translate(-50%, -50%);
 }
 
+.windowContent {
+  overflow-y: scroll;
+  height: 90%;
+}
+
 .actionBar {
   background-color: #7766c6;
   border-top-right-radius: 8px;

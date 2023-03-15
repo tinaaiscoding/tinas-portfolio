@@ -1,10 +1,16 @@
-.icons {
+.leftDesktopIcons {
   position: absolute;
   z-index: 1;
 }
 
-.icons a {
-  color: black;
+.leftDesktopIcons a {
+  color: #46467a;
   text-decoration: none;
   cursor: auto;
+}
+
+.rightDesktopIcons {
+  position: absolute;
+  z-index: 1;
+  right: 0;
 }

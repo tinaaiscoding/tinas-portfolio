@@ -12,8 +12,8 @@ import trash from '../../images/icons/trash.png';
 
 const DesktopIcons = () => {
   return (
-    <div className={classes.icons}>
-      <div className="left-icons">
+    <div>
+      <div className={classes.leftDesktopIcons}>
         <DesktopIcon name="Projects" imgSrc={wwwFolder}></DesktopIcon>
 
         <a
@@ -41,13 +41,13 @@ const DesktopIcons = () => {
           onDoubleClick={() => {
             window.location = 'https://www.linkedin.com/in/tinanhivo/';
           }}
-          href=""
+          href="https://www.linkedin.com/in/tinanhivo/"
         >
           <DesktopIcon name="LinkedIn" imgSrc={linkedInOg}></DesktopIcon>
         </a>
       </div>
 
-      <div className="right-DesktopIcons">
+      <div className={classes.rightDesktopIcons}>
         <DesktopIcon name="My Life" imgSrc={trash}></DesktopIcon>
       </div>
     </div>

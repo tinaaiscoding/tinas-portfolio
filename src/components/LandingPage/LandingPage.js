@@ -3,7 +3,9 @@ import React from 'react';
 import TilesBg from '../UI/TilesBg';
 import AboutMe from './AboutMe';
 import DesktopIcons from './DesktopIcons';
-import Dockbar from './Dockbar';
+import Dockbar from '../Dockbar/Dockbar';
+
+import Resume from '../Dockbar/Resume';
 
 const LandingPage = () => {
   return (

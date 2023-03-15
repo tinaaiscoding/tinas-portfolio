@@ -1,0 +1,9 @@
+.resume {
+  overflow-y: scroll;
+  max-width: min-content;
+ height: 65%;
+}
+
+.page {
+  width: 100%;
+}
