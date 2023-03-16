@@ -2,16 +2,18 @@ import React from 'react';
 import Draggable from 'react-draggable';
 
 import classes from './Window.module.css';
-import './Window.scss'
+import './Window.scss';
 import 'primeicons/primeicons.css';
 
 const Window = (props) => {
+
   return (
-    <Draggable handle='.actionBar'>
+    <Draggable handle=".actionBar">
       <div className={`${classes.window} ${props.className}`}>
         <div className={`${classes.actionBar} actionBar`}>
           <span
             className={`pi pi-circle-fill ${classes.red} ${classes.circleFill}`}
+            onClick={props.onCloseWindow}
           ></span>
           <span
             className={`pi pi-circle-fill ${classes.amber} ${classes.circleFill}`}

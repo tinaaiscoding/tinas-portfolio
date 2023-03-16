@@ -5,29 +5,43 @@ import AboutMe from './AboutMe';
 import DesktopIcons from './DesktopIcons';
 import Dockbar from '../Dockbar/Dockbar';
 import Resume from '../Dockbar/Resume';
-import ContactMeForm from '../ContactMe/ContactMeForm';
+import ContactMeForm from '../Dockbar/ContactMeForm';
 
 import '../UI/Window.scss';
 
 const LandingPage = () => {
-  const [resumeClicked, setResumeClicked] = useState(false);
-  const [contactMeClicked, setContactMeClicked] = useState(false);
+  const [aboutMeVisible, setAboutMeVisible] = useState(true);
+  const [resumeVisible, setResumeVisible] = useState(false);
+  const [contactMeVisible, setContactMeVisible] = useState(false);
+
+  const closeAboutMeHandler = () => {
+    setAboutMeVisible(false)
+  }
+
+  const closeResumeHandler = () => {
+    setResumeVisible(false)
+  }
+
+  const closeContactMeHandler = () => {
+    setContactMeVisible(false)
+  }
 
   return (
     <div>
       <DesktopIcons />
-      <AboutMe />
-      <Dockbar
-        setResumeClicked={setResumeClicked}
-        setContactMeClicked={setContactMeClicked}
-      />
+      {aboutMeVisible && <AboutMe onCloseWindow={closeAboutMeHandler} />}
 
-<ContactMeForm></ContactMeForm>
+      <Dockbar
+        setResumeVisible={setResumeVisible}
+        setContactMeVisible={setContactMeVisible}
+        setAboutMeVisible={setAboutMeVisible}
+      />
+      {resumeVisible && <Resume onCloseWindow={closeResumeHandler} />}
+      {contactMeVisible && (
+        <ContactMeForm onCloseWindow={closeContactMeHandler} />
+      )}
 
       <TilesBg />
-
-      {resumeClicked && <Resume className="maximize" />}
-      {contactMeClicked && <ContactMeForm className="maximize" />}
     </div>
   );
 };

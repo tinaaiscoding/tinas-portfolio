@@ -16,15 +16,6 @@
   margin: auto;
 }
 
-.aboutMeContent h3 {
-  text-align: center;
-  margin: 80px 0 30px;
-  padding: 10px;
-  background-color: #e0dffd7e;
-  font-size: 0.9rem;
-  letter-spacing: 4px;
-}
-
 .aboutMeContent p {
   font-size: 1rem;
   line-height: 32px;

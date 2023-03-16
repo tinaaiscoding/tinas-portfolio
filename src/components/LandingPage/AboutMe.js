@@ -2,9 +2,9 @@ import React from 'react';
 import Window from '../UI/Window';
 import classes from './AboutMe.module.css';
 
-const AboutMe = () => {
+const AboutMe = (props) => {
   return (
-    <Window>
+    <Window onCloseWindow={props.onCloseWindow}>
       <div className={classes.aboutMe}>
         <div className={classes.aboutMeHeader}>
           <div className={classes.typewriter}>

@@ -4,12 +4,10 @@ import resume from '../../images/resume.svg'
 
 import Window from '../UI/Window'
 import classes from './Resume.module.css'
-import 'react-pdf/dist/esm/Page/TextLayer.css';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
-const Resume = () => {
+const Resume = (props) => {
   return (
-    <Window className={classes.resume}>
+    <Window className={classes.resume} onCloseWindow={props.onCloseWindow}>
       <img className={classes.resumeSvg} src={resume} alt="" />
     </Window>
   )

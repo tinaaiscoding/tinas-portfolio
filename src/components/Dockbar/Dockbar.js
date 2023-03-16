@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import DockbarIcon from '../UI/DockbarIcon';
 
 import classes from './Dockbar.module.css';
@@ -9,27 +9,46 @@ import email from '../../images/icons/email.png';
 import onigiri from '../../images/icons/onigiri.png';
 
 const Dockbar = (props) => {
+  const openMacHandler = () => {
+    console.log('mac');
+  };
+
   const openResumeHandler = () => {
-    props.setResumeClicked(true)
-  }
+    props.setResumeVisible(true);
+  };
 
   const openContactMeFormHandler = () => {
-    props.setContactMeClicked(true)
-  }
+    props.setContactMeVisible(true);
+  };
 
-  const openMacHandler = () => {
-    console.log('mac')
-  }
+  const openAboutMeHandler = () => {
+    props.setAboutMeVisible(true);
+  };
 
   return (
     <div className={classes.dockbar}>
-      <DockbarIcon name="Happy Mac" imgSrc={happyMac} onIconClick={openMacHandler}></DockbarIcon>
-      <DockbarIcon name="Resume" imgSrc={resume} onIconClick={openResumeHandler}></DockbarIcon>
-      <DockbarIcon name="Drop a msg!" imgSrc={email} onIconClick={openContactMeFormHandler}></DockbarIcon>
-      <DockbarIcon name="About Me" imgSrc={onigiri}></DockbarIcon>
+      <DockbarIcon
+        name="Happy Mac"
+        imgSrc={happyMac}
+        onIconClick={openMacHandler}
+      ></DockbarIcon>
+      <DockbarIcon
+        name="Resume"
+        imgSrc={resume}
+        onIconClick={openResumeHandler}
+      ></DockbarIcon>
+      <DockbarIcon
+        name="Drop a msg!"
+        imgSrc={email}
+        onIconClick={openContactMeFormHandler}
+      ></DockbarIcon>
+      <DockbarIcon
+        name="About Me"
+        imgSrc={onigiri}
+        onIconClick={openAboutMeHandler}
+      ></DockbarIcon>
     </div>
   );
 };
 
 export default Dockbar;
- 
