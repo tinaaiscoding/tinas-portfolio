@@ -2,6 +2,7 @@ import React from 'react';
 import Draggable from 'react-draggable';
 
 import classes from './Window.module.css';
+import './Window.scss'
 import 'primeicons/primeicons.css';
 
 const Window = (props) => {

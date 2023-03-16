@@ -2,21 +2,24 @@
   background: white;
   box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
   border-radius: 10px;
-  z-index: 3;
+  z-index: 10;
   position: absolute;
-  border: 2px solid #46467A;
+  border: 2px solid #46467a;
   width: 45%;
   height: 45%;
   top: 25%;
   left: 26.5%;
 
+  transition: top 0.5s 0s cubic-bezier(0.1, 1.2, 0.3, 1),
+    transform 0.5s 0s cubic-bezier(0.1, 1.2, 0.3, 1),
+    width 0.5s 0.5s cubic-bezier(0.1, 1.2, 0.3, 1), opacity 0.3s;
 }
 
 .actionBar {
   background-color: #7766c6;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  border-bottom: 2px solid #46467A;
+  border-bottom: 2px solid #46467a;
   height: max-content;
 }
 
@@ -24,7 +27,7 @@
   border-radius: 100%;
   font-size: 0.8rem;
   margin: 8px 3px;
-  border: 1px solid #46467A;
+  border: 1px solid #46467a;
 }
 
 .red {
@@ -51,5 +54,3 @@
 .green:hover {
   color: rgb(91, 214, 109);
 }
-
-

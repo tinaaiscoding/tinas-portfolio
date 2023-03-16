@@ -1,0 +1,25 @@
+.maximize {
+  transition:
+    opacity .3s .5s,
+    top 0s .8s;
+}
+
+.minimized {
+  .window {
+    top: 100%;
+    transform: translate(-50%, -30px);
+    width: 200px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    .maximize {
+      top: 0;
+      opacity: 1;
+
+      transition: opacity 0.3s 0.5s, top 0s 0.5s;
+    }
+  }
+}

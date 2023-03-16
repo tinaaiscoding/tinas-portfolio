@@ -13,6 +13,10 @@ const Dockbar = (props) => {
     props.setResumeClicked(true)
   }
 
+  const openContactMeFormHandler = () => {
+    props.setContactMeClicked(true)
+  }
+
   const openMacHandler = () => {
     console.log('mac')
   }
@@ -21,7 +25,7 @@ const Dockbar = (props) => {
     <div className={classes.dockbar}>
       <DockbarIcon name="Happy Mac" imgSrc={happyMac} onIconClick={openMacHandler}></DockbarIcon>
       <DockbarIcon name="Resume" imgSrc={resume} onIconClick={openResumeHandler}></DockbarIcon>
-      <DockbarIcon name="Drop a msg!" imgSrc={email}></DockbarIcon>
+      <DockbarIcon name="Drop a msg!" imgSrc={email} onIconClick={openContactMeFormHandler}></DockbarIcon>
       <DockbarIcon name="About Me" imgSrc={onigiri}></DockbarIcon>
     </div>
   );
