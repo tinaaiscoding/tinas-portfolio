@@ -5,9 +5,9 @@ import Gallery from './Gallery';
 import ProjectIcons from './ProjectIcons';
 import classes from './ProjectsDir.module.css';
 
-const ProjectsDir = () => {
+const ProjectsDir = (props) => {
   return (
-    <Window className={classes.projectsDir}>
+    <Window className={classes.projectsDir} onCloseWindow={props.onCloseWindow}>
       <div className={classes.grid}>
         <div className={classes.sidebar}>
           <ul>

@@ -10,11 +10,15 @@ import linkedInOg from '../../images/icons/linkedin-og.png';
 import twitterOg from '../../images/icons/twitter-og.png';
 import trash from '../../images/icons/trash.png';
 
-const DesktopIcons = () => {
+const DesktopIcons = (props) => {
+  const dblClickHandler = () => {
+    props.setProjectsDirVisible(true)
+  }
+
   return (
     <div>
       <div className={classes.leftDesktopIcons}>
-        <DesktopIcon name="Projects" imgSrc={wwwFolder}></DesktopIcon>
+        <DesktopIcon name="Projects" imgSrc={wwwFolder} dblClickHandler={dblClickHandler}></DesktopIcon>
 
         <a
           onClick={(event) => event.preventDefault()}

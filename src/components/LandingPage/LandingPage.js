@@ -12,22 +12,30 @@ const LandingPage = () => {
   const [aboutMeVisible, setAboutMeVisible] = useState(true);
   const [resumeVisible, setResumeVisible] = useState(false);
   const [contactMeVisible, setContactMeVisible] = useState(false);
+  const [projectsDirVisible, setProjectsDirVisible] = useState(false);
+
+  const closeProjectDirHandler = () => {
+    setProjectsDirVisible(false);
+  };
 
   const closeAboutMeHandler = () => {
-    setAboutMeVisible(false)
-  }
+    setAboutMeVisible(false);
+  };
 
   const closeResumeHandler = () => {
-    setResumeVisible(false)
-  }
+    setResumeVisible(false);
+  };
 
   const closeContactMeHandler = () => {
-    setContactMeVisible(false)
-  }
+    setContactMeVisible(false);
+  };
 
   return (
     <div>
-      <DesktopIcons />
+      <DesktopIcons setProjectsDirVisible={setProjectsDirVisible} />
+
+      {projectsDirVisible && <ProjectsDir onCloseWindow={closeProjectDirHandler} />}
+
       {aboutMeVisible && <AboutMe onCloseWindow={closeAboutMeHandler} />}
 
       <Dockbar
@@ -35,12 +43,12 @@ const LandingPage = () => {
         setContactMeVisible={setContactMeVisible}
         setAboutMeVisible={setAboutMeVisible}
       />
+
       {resumeVisible && <Resume onCloseWindow={closeResumeHandler} />}
+
       {contactMeVisible && (
         <ContactMeForm onCloseWindow={closeContactMeHandler} />
       )}
-
-      <ProjectsDir></ProjectsDir>
 
       <TilesBg />
     </div>
