@@ -1,31 +1,43 @@
 import React from 'react';
 import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+import classes from './Gallery.module.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import ttt1 from '../../images/projectScreenshots/tic-tac-toe/ttt-1.png'
+import ttt1 from '../../images/projectScreenshots/tic-tac-toe/ttt-1.png';
+import ttt2 from '../../images/projectScreenshots/tic-tac-toe/ttt-2.png';
+import ttt3 from '../../images/projectScreenshots/tic-tac-toe/ttt-3.png';
+import ttt4 from '../../images/projectScreenshots/tic-tac-toe/ttt-4.png';
+import ttt5 from '../../images/projectScreenshots/tic-tac-toe/ttt-5.png';
+import ttt6 from '../../images/projectScreenshots/tic-tac-toe/ttt-6.png';
 
 const Gallery = () => {
   return (
-    <>
+    <div className={classes.swiper}>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          {/* <img src={ttt1} alt="" /> */}
-         Slide 1
-         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+          <img src={ttt1} alt="enter-players-name" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ttt2} alt="player2s-turn" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ttt3} alt="draw" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ttt4} alt="winner" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ttt6} alt="menu" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ttt5} alt="scoreboard" />
+        </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 

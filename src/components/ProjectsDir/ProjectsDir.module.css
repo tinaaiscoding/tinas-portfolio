@@ -1,26 +1,24 @@
 .projectsDir {
-  height: 70%;
-  width: 75%;
-  top: 10%;
-  left: 12.5%;
+  height: 95%;
+  width: 95%;
+  top: 2%;
+  left: 2.5%;
 }
 
 .grid {
-  height: 94%;
+  height: 95.4%;
   display: grid;
   grid-template-columns: 0.3fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
+  grid-template-rows: 1fr 0.2fr;
 }
 
 .sidebar {
-  border-right: 1px solid #46467A;
+  border-right: 1px solid #46467a;
   grid-area: 1 / 1 / 3 / 2;
 }
 
 .gallery {
   grid-area: 1 / 2 / 2 / 3;
-  text-align: center;
-  width: 800px;
 }
 
 .projectsDir {
@@ -33,7 +31,7 @@ ul {
 
 li {
   padding: 15px 25px;
-  border-bottom: 1px solid #46467A;
+  border-bottom: 1px solid #46467a;
   list-style-type: none;
   margin-left: 0;
   letter-spacing: 1.5px;
