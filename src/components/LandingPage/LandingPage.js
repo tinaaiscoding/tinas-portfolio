@@ -40,7 +40,7 @@ const LandingPage = () => {
         <ContactMeForm onCloseWindow={closeContactMeHandler} />
       )}
 
-      {/* <ProjectsDir></ProjectsDir> */}
+      <ProjectsDir></ProjectsDir>
 
       <TilesBg />
     </div>

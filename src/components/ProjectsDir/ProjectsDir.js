@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Window from '../UI/Window';
+import Gallery from './Gallery';
 import classes from './ProjectsDir.module.css';
 
 const ProjectsDir = () => {
@@ -17,7 +18,10 @@ const ProjectsDir = () => {
           </ul>
         </div>
 
-        <div className={classes.gallery}>gallery</div>
+        <div className={classes.gallery}>
+          <Gallery></Gallery>
+        </div>
+        
         <div className={classes.projectIcons}>icons</div>
       </div>
     </Window>

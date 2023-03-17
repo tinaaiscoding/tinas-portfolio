@@ -19,6 +19,8 @@
 
 .gallery {
   grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+  width: 800px;
 }
 
 .projectsDir {
