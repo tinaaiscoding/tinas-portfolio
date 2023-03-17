@@ -6,8 +6,7 @@ import DesktopIcons from './DesktopIcons';
 import Dockbar from '../Dockbar/Dockbar';
 import Resume from '../Dockbar/Resume';
 import ContactMeForm from '../Dockbar/ContactMeForm';
-
-import '../UI/Window.scss';
+import ProjectsDir from '../ProjectsDir/ProjectsDir';
 
 const LandingPage = () => {
   const [aboutMeVisible, setAboutMeVisible] = useState(true);
@@ -40,6 +39,8 @@ const LandingPage = () => {
       {contactMeVisible && (
         <ContactMeForm onCloseWindow={closeContactMeHandler} />
       )}
+
+      {/* <ProjectsDir></ProjectsDir> */}
 
       <TilesBg />
     </div>

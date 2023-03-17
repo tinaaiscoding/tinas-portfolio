@@ -24,10 +24,10 @@
   height: 30px;
   font-size: 1rem;
 }
-
+/* 
 .contactMeForm input[type="text"]:focus {
   border: 2px solid #E0DFFD;
-}
+} */
 
 .contactMeForm .btnDiv {
   margin-top: -8px;

@@ -4,7 +4,7 @@ import classes from './AboutMe.module.css';
 
 const AboutMe = (props) => {
   return (
-    <Window onCloseWindow={props.onCloseWindow}>
+    <Window onCloseWindow={props.onCloseWindow} className={classes.in}>
       <div className={classes.aboutMe}>
         <div className={classes.aboutMeHeader}>
           <div className={classes.typewriter}>

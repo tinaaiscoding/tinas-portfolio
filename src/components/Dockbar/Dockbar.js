@@ -36,6 +36,7 @@ const Dockbar = (props) => {
         name="Resume"
         imgSrc={resume}
         onIconClick={openResumeHandler}
+        className='maximize'
       ></DockbarIcon>
       <DockbarIcon
         name="Drop a msg!"
