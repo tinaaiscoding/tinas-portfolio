@@ -1,5 +1,5 @@
 import React from 'react';
-import DockbarIcon from '../UI/DockbarIcon';
+import DockbarIcon from './DockbarIcon';
 
 import classes from './Dockbar.module.css';
 

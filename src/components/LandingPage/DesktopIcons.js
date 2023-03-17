@@ -1,5 +1,5 @@
 import React from 'react';
-import DesktopIcon from '../UI/DesktopIcon';
+import DesktopIcon from './DesktopIcon';
 
 import classes from './DesktopIcons.module.css';
 

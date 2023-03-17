@@ -5,7 +5,7 @@ import classes from './DockbarIcon.module.css'
 const DockbarIcon = (props) => {
   return (
     <div className={classes.dockbarIcon} onClick={props.onIconClick}>
-      <img className={classes.icon} src={props.imgSrc} alt='Folder'/>
+      <img className={classes.icon} src={props.imgSrc} alt={props.name}/>
       <p className={classes.iconName}>{props.name}</p>
     </div>
   )

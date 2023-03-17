@@ -1,0 +1,22 @@
+.projectIcon {
+  display: inline-block;
+  text-align: center;
+  margin: 15px 50px;
+  padding: 10px 13px;
+  border-radius: 5%;
+}
+
+.projectIcon:hover {
+  background-color: #ccaeff60;
+}
+
+.icon {
+  width: 60px;
+}
+
+.iconName {
+  font-size: 0.9rem;
+  letter-spacing: 0.8px;
+  padding-top: 4px;
+  font-weight: 500;
+}

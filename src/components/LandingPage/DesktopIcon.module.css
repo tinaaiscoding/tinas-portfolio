@@ -1,17 +1,19 @@
-.iconWrapper {
+.desktopIcon {
   text-align: center;
   margin: 0 20px 15px;
   padding: 10px 13px;
   border-radius: 5%;
 }
 
+
+.desktopIcon:hover {
+  background-color: #ccaeff60;
+}
+
 .icon {
   width: 60px;
 }
 
-.iconWrapper:hover {
-  background-color: #ccaeff60;
-}
 
 .iconName {
   font-size: 0.9rem;

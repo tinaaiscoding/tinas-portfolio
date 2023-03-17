@@ -13,6 +13,7 @@
 }
 
 .sidebar {
+  background-color: #ebeaf8;
   border-right: 1px solid #46467a;
   grid-area: 1 / 1 / 3 / 2;
 }
@@ -38,5 +39,6 @@ li {
 }
 
 li:hover {
-  background-color: #ebeaf8;
+  background-color: #867ec4;
+  color: white;
 }
