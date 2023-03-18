@@ -94,8 +94,3 @@
   0% { opacity: 0%; }
   100% { opacity: 83%; }
 }
-
-/* .backdrop.visible {
-  display: block;
-  pointer-events: all;
-} */
