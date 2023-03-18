@@ -2,12 +2,12 @@ import React from 'react';
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import ttt1 from '../../../images/projectScreenshots/tic-tac-toe/ttt-1.png';
-import ttt2 from '../../../images/projectScreenshots/tic-tac-toe/ttt-2.png';
-import ttt3 from '../../../images/projectScreenshots/tic-tac-toe/ttt-3.png';
-import ttt4 from '../../../images/projectScreenshots/tic-tac-toe/ttt-4.png';
-import ttt5 from '../../../images/projectScreenshots/tic-tac-toe/ttt-5.png';
-import ttt6 from '../../../images/projectScreenshots/tic-tac-toe/ttt-6.png';
+import ttt1 from '../../../images/projectScreenshots/tic-tac-toe/ttt1.png';
+import ttt2 from '../../../images/projectScreenshots/tic-tac-toe/ttt2.png';
+import ttt3 from '../../../images/projectScreenshots/tic-tac-toe/ttt3.png';
+import ttt4 from '../../../images/projectScreenshots/tic-tac-toe/ttt4.png';
+import ttt5 from '../../../images/projectScreenshots/tic-tac-toe/ttt5.png';
+import ttt6 from '../../../images/projectScreenshots/tic-tac-toe/ttt6.png';
 
 const TTTGallery = () => {
   return (

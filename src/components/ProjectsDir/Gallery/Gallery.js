@@ -8,6 +8,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import TTTGallery from './TTTGallery';
+import NotingGallery from './NotingGallery';
+import PokeBattlesGallery from './PokeBattlesGallery';
+import VoyageGallery from './VoyageGallery';
 
 const Gallery = (props) => {
   return (
@@ -31,6 +34,9 @@ const Gallery = (props) => {
       )}
 
       {props.tttClicked && <TTTGallery />}
+      {props.notingClicked && <NotingGallery />}
+      {props.pokeBattlesClicked && <PokeBattlesGallery />}
+      {props.voyageClicked && <VoyageGallery />}
     </div>
   );
 };
