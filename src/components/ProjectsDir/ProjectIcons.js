@@ -8,31 +8,62 @@ import noting from '../../images/icons/noting1.png';
 import pokebattles from '../../images/icons/pokebattles.png';
 import voyage from '../../images/icons/voyage.png';
 
-const ProjectIcons = () => {
+const ProjectIcons = (props) => {
+  const showTTTHandler = () => {
+    props.setDefaultSlide(false)
+    props.setTttClicked(true)
+    props.setNotingClicked(false)
+    props.setPokeBattlesClicked(false)
+    props.setVoyageClicked(false)
+  };
+
+  const showNotingHandler = () => {
+    props.setDefaultSlide(false)
+    props.setTttClicked(false)
+    props.setNotingClicked(true)
+    props.setPokeBattlesClicked(false)
+    props.setVoyageClicked(false)
+  };
+
+  const showPokeBattlesHandler = () => {
+    props.setDefaultSlide(false)
+    props.setTttClicked(false)
+    props.setNotingClicked(false)
+    props.setPokeBattlesClicked(true)
+    props.setVoyageClicked(false)
+  };
+
+  const showVoyageHandler = () => {
+    props.setDefaultSlide(false)
+    props.setTttClicked(false)
+    props.setNotingClicked(false)
+    props.setPokeBattlesClicked(false)
+    props.setVoyageClicked(true)
+  };
   return (
     <div className={classes.projectIcons}>
       <ProjectIcon
         name="Tic-Tac-Toe"
         imgSrc={ttt}
-        // onIconClick={openMacHandler}
+        onIconClick={showTTTHandler}
       ></ProjectIcon>
 
       <ProjectIcon
         name="NOTING"
         imgSrc={noting}
-        // onIconClick={openMacHandler}
+        onIconClick={showNotingHandler}
       ></ProjectIcon>
 
       <ProjectIcon
         name="Poké Battles"
         imgSrc={pokebattles}
-        // onIconClick={openMacHandler}
+        onIconClick={showPokeBattlesHandler}
       ></ProjectIcon>
 
       <ProjectIcon
         name="voyage"
         imgSrc={voyage}
-        // onIconClick={openMacHandler}
+        onIconClick={showVoyageHandler}
       ></ProjectIcon>
     </div>
   );

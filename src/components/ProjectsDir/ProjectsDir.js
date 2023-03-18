@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import Window from '../UI/Window';
-import Gallery from './Gallery';
-import ProjectIcons from './ProjectIcons';
 import classes from './ProjectsDir.module.css';
 
+import Window from '../UI/Window';
+import Gallery from './Gallery/Gallery';
+import ProjectIcons from './ProjectIcons';
+import TTTGallery from './Gallery/TTTGallery';
+
+
 const ProjectsDir = (props) => {
+  const [defaultSlide, setDefaultSlide] = useState(true);
+  const [tttClicked, setTttClicked] = useState(false)
+  const [notingClicked, setNotingClicked] = useState(false)
+  const [pokeBattlesClicked, setPokeBattlesClicked] = useState(false)
+  const [voyageClicked, setVoyageClicked] = useState(false)
+
   return (
     <Window className={classes.projectsDir} onCloseWindow={props.onCloseWindow}>
       <div className={classes.grid}>
@@ -14,17 +23,29 @@ const ProjectsDir = (props) => {
             <li>ALL PROJECTS</li>
             <li>TIC-TAC-TOE</li>
             <li>NOTING</li>
-            <li>POKE BATTLES</li>
+            <li>POKÉ BATTLES</li>
             <li>VOYAGE</li>
           </ul>
         </div>
 
         <div className={classes.gallery}>
-          <Gallery></Gallery>
+          <Gallery
+            defaultSlide={defaultSlide}
+            tttClicked={tttClicked}
+            notingClicked={notingClicked}
+            pokeBattlesClicked={pokeBattlesClicked}
+            voyageClicked={voyageClicked}
+          ></Gallery>
         </div>
 
         <div className={classes.projectIcons}> 
-          <ProjectIcons></ProjectIcons>
+          <ProjectIcons
+            setDefaultSlide={setDefaultSlide}
+            setTttClicked={setTttClicked}
+            setNotingClicked={setNotingClicked}
+            setPokeBattlesClicked={setPokeBattlesClicked}
+            setVoyageClicked={setVoyageClicked}
+          ></ProjectIcons>
         </div>
       </div>
     </Window>

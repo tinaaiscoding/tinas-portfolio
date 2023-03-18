@@ -1,0 +1,24 @@
+.swiper {
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto 0;
+}
+
+.swiper img {
+  width: 90%;
+}
+
+.swiper p {
+  margin: 20px;
+}
+
+.defaultSlide {
+  margin: 0 auto;
+  border: 3px solid #E0DFFD;
+  width: 90%;
+  height: 482px;
+}
+
+.textBox {
+  margin-top: 200px;
+}
