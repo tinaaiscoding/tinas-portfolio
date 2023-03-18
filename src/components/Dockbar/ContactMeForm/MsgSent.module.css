@@ -1,0 +1,34 @@
+.msgSent {
+  background-color: #eaeaf6;
+  border-top: 2px solid #796b92;
+  border-bottom: 2px solid #796b92;
+  padding: 25px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 93px;
+  z-index: 30;
+  left: -100%;
+
+  animation: slide 0.8s forwards;
+  /* animation-delay: 2s; */
+}
+
+.msgSent img {
+  width: 90px;
+}
+
+.msgSent p {
+  letter-spacing: 1.8px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+.msgSent .textBox {
+  margin-top: 20px;
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}

@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 import DesktopIcons from './DesktopIcons';
 import Dockbar from '../Dockbar/Dockbar';
 import Resume from '../Dockbar/Resume';
-import ContactMeForm from '../Dockbar/ContactMeForm';
+import ContactMeForm from '../Dockbar/ContactMeForm/ContactMeForm';
 import ProjectsDir from '../ProjectsDir/ProjectsDir';
 
 const LandingPage = () => {
