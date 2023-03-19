@@ -5,8 +5,6 @@ import classes from './ProjectsDir.module.css';
 import Window from '../UI/Window';
 import Gallery from './Gallery/Gallery';
 import ProjectIcons from './ProjectIcons';
-import TTTGallery from './Gallery/TTTGallery';
-
 
 const ProjectsDir = (props) => {
   const [defaultSlide, setDefaultSlide] = useState(true);
@@ -16,7 +14,7 @@ const ProjectsDir = (props) => {
   const [voyageClicked, setVoyageClicked] = useState(false)
 
   return (
-    <Window className={classes.projectsDir} onCloseWindow={props.onCloseWindow}>
+    <Window className={classes.projectsDir} onCloseWindow={props.onCloseWindow} onWindowClick={props.onWindowClick}>
       <div className={classes.grid}>
         <div className={classes.sidebar}>
           <ul>

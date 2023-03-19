@@ -7,7 +7,7 @@
   position: absolute;
   width: 100%;
   margin-top: 93px;
-  z-index: 30;
+  z-index: 20;
   left: -100%;
 
   animation: slide 0.8s forwards;

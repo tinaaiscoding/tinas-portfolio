@@ -11,7 +11,7 @@ const ContactMeForm = (props) => {
   const [formInput, setFormInput] = useState({
     name: '',
     email: '',
-    msg: ''
+    msg: '',
   });
 
   const msgSentHandler = () => {
@@ -57,8 +57,10 @@ const ContactMeForm = (props) => {
 
   return (
     <Window
-      className={classes.contactMeForm}
+      className={`${classes.contactMeForm}`}
       onCloseWindow={props.onCloseWindow}
+      onWindowClick={props.onWindowClick}
+      style={props.style}
     >
       {msgSent && (
         <div className={classes.msgSentBox}>

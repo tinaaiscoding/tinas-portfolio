@@ -8,7 +8,7 @@ const Window = (props) => {
 
   return (
     <Draggable handle=".actionBar">
-      <div className={`${classes.window} ${props.className}`}>
+      <div className={`${props.className} ${classes.window}`} onClick={props.onWindowClick} style={props.style}>
         <div className={`${classes.actionBar} actionBar`}>
           <span
             className={`pi pi-circle-fill ${classes.red} ${classes.circleFill}`}
