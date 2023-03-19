@@ -9,16 +9,21 @@ import gitHubOg from '../../images/icons/github-og.png';
 import linkedInOg from '../../images/icons/linkedin-og.png';
 import twitterOg from '../../images/icons/twitter-og.png';
 import trash from '../../images/icons/trash.png';
+import credits2 from '../../images/icons/credits2.png';
 
 const DesktopIcons = (props) => {
-  const dblClickHandler = () => {
+  const openProjectDirHandler = () => {
     props.setProjectsDirVisible(true)
+  }
+
+  const openCreditsHandler = () => {
+    props.setCreditsVisible(true)
   }
 
   return (
     <div>
       <div className={classes.leftDesktopIcons}>
-        <DesktopIcon name="Projects" imgSrc={wwwFolder} dblClickHandler={dblClickHandler}></DesktopIcon>
+        <DesktopIcon name="Projects" imgSrc={wwwFolder} dblClickHandler={openProjectDirHandler}></DesktopIcon>
 
         <a
           onClick={(event) => event.preventDefault()}
@@ -52,7 +57,8 @@ const DesktopIcons = (props) => {
       </div>
 
       <div className={classes.rightDesktopIcons}>
-        <DesktopIcon name="My Life" imgSrc={trash}></DesktopIcon>
+        <DesktopIcon name="Trash Can" imgSrc={trash}></DesktopIcon>
+        <DesktopIcon name="Credits" imgSrc={credits2} dblClickHandler={openCreditsHandler}></DesktopIcon>
       </div>
     </div>
   );
