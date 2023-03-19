@@ -16,6 +16,7 @@ const PokeBattlesGallery = () => {
   return (
     <Swiper
       navigation={true}
+      pagination={true}
       modules={[Pagination, Navigation]}
       className="mySwiper"
     >
