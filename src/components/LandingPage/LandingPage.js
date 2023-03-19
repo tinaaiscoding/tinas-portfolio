@@ -39,13 +39,16 @@ const LandingPage = () => {
     setProjectsDirVisible(false);
   };
 
+  const closeCreditHandler = () => {
+    setCreditsVisible(false);
+  };
+
   const activeAboutMeHandler = () => {
     setAboutMeActive(true);
     setResumeActive(false);
     setContactMeActive(false);
     setProjectsDirActive(false);
     setCreditsActive(false);
-    console.log('about me');
   };
 
   const activeResumeHandler = () => {
@@ -54,7 +57,6 @@ const LandingPage = () => {
     setContactMeActive(false);
     setProjectsDirActive(false);
     setCreditsActive(false);
-    console.log('resume');
   };
 
   const activeContactMeHandler = () => {
@@ -63,7 +65,6 @@ const LandingPage = () => {
     setContactMeActive(true);
     setProjectsDirActive(false);
     setCreditsActive(false);
-    console.log('contact');
   };
 
   const activeProjectHandler = () => {
@@ -72,7 +73,6 @@ const LandingPage = () => {
     setContactMeActive(false);
     setProjectsDirActive(true);
     setCreditsActive(false);
-    console.log('project');
   };
 
   const activeCreditsHandler = () => {
@@ -81,7 +81,6 @@ const LandingPage = () => {
     setContactMeActive(false);
     setProjectsDirActive(false);
     setCreditsActive(true);
-    console.log('credits');
   };
 
   const active = {
@@ -90,7 +89,10 @@ const LandingPage = () => {
 
   return (
     <div>
-      <DesktopIcons setProjectsDirVisible={setProjectsDirVisible} setCreditsVisible={setCreditsVisible} />
+      <DesktopIcons
+        setProjectsDirVisible={setProjectsDirVisible}
+        setCreditsVisible={setCreditsVisible}
+      />
 
       <Dockbar
         setResumeVisible={setResumeVisible}
@@ -116,7 +118,7 @@ const LandingPage = () => {
 
       {resumeVisible && (
         <Resume
-        style={resumeActive ? active : ''}
+          style={resumeActive ? active : ''}
           onCloseWindow={closeResumeHandler}
           onWindowClick={activeResumeHandler}
         />
@@ -130,7 +132,12 @@ const LandingPage = () => {
         />
       )}
 
-      {creditsVisible && <Credits onCloseWindow={closeContactMeHandler} onWindowClick={activeCreditsHandler}/>}
+      {creditsVisible && (
+        <Credits
+          onCloseWindow={closeCreditHandler}
+          onWindowClick={activeCreditsHandler}
+        />
+      )}
 
       <TilesBg />
     </div>

@@ -1,0 +1,19 @@
+.credits {
+  overflow-y: scroll;
+  height: 60%;
+  top: 20%;
+}
+
+.creditsContent a {
+  color: #46467A;
+  font-size: 1.3rem;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.creditsContent a:hover {
+  color: #a580e4
+}
