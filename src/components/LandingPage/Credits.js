@@ -28,7 +28,6 @@ const Credits = (props) => {
         <a href="https://www.behance.net/gallery/93884721/Event-App">
           COLOUR PALETTE
         </a>
-        <a href="https://herotofu.com/">COLOUR SCHEME 2</a>
         <a href="https://css-tricks.com/snippets/css/typewriter-effect/">
           TYPEWRITING ANIMATION
         </a>
