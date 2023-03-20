@@ -1,6 +1,6 @@
 .contactMeForm {
   width: 38%;
-  height: 55%;
+  height: 60%;
   left: 31%;
   top: 20%;
   overflow: hidden;
@@ -34,7 +34,7 @@
 }
 
 .contactMeForm .btnDiv {
-  margin-top: 25px;
+  margin-top: 15px;
   text-align: center;
 }
 
