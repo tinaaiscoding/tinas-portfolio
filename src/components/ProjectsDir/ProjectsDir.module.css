@@ -28,11 +28,11 @@
   grid-area: 2 / 2 / 3 / 3;
 }
 
-ul {
+.sidebar ul {
   padding-left: 0;
 }
 
-li {
+.sidebar li {
   padding: 15px 25px;
   border-bottom: 1px solid #46467a;
   list-style-type: none;
@@ -40,7 +40,7 @@ li {
   letter-spacing: 1.5px;
 }
 
-li:hover {
+.sidebar li:hover {
   background-color: #867ec4;
   color: white;
 }
