@@ -67,3 +67,8 @@
 .isActive {
   z-index: 100;
 }
+
+.content {
+  height: 100%;
+  overflow-y: scroll;
+}

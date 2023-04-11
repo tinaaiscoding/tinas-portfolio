@@ -8,7 +8,7 @@ import classes from './Resume.module.css';
 const Resume = (props) => {
   return (
     <Window
-      className={`${classes.resume}`}
+      id={`${classes.resume}`}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}

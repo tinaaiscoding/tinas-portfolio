@@ -5,10 +5,15 @@ import classes from './Window.module.css';
 import 'primeicons/primeicons.css';
 
 const Window = (props) => {
-
   return (
     <Draggable handle=".actionBar">
-      <div className={`${props.className} ${classes.window}`} onClick={props.onWindowClick} style={props.style}>
+      
+      <div
+        id={props.id}
+        className={classes.window}
+        onClick={props.onWindowClick}
+        style={props.style}
+      >
         <div className={`${classes.actionBar} actionBar`}>
           <span
             className={`pi pi-circle-fill ${classes.red} ${classes.circleFill}`}
@@ -22,7 +27,7 @@ const Window = (props) => {
           ></span>
         </div>
 
-        {props.children}
+        <div className={`${classes.content}`}>{props.children}</div>
       </div>
     </Draggable>
   );

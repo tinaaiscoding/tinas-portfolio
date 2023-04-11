@@ -1,4 +1,4 @@
-.contactMeForm {
+#contactMeForm {
   width: 38%;
   height: 60%;
   left: 31%;
@@ -6,18 +6,18 @@
   overflow: hidden;
 }
 
-.contactMeForm form {
+#contactMeForm form {
   padding: 0 25px 25px;
   margin: 0 auto;
 }
 
-.contactMeForm label {
+#contactMeForm label {
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 0.85rem;
 }
 
-.contactMeForm input {
+#contactMeForm input {
   border: 2px solid #E0DFFD;
   border-radius: 3px;
   margin: 10px 0;
@@ -27,18 +27,18 @@
 }
 
 
-.contactMeForm input[type='text']:focus, .contactMeForm input[type='email']:focus, .contactMeForm textarea[type='text']:focus {
+#contactMeForm input[type='text']:focus, #contactMeForm input[type='email']:focus, #contactMeForm textarea[type='text']:focus {
   border-style: solid;
   outline-color: #7766C6;
   border-width: 2px;
 }
 
-.contactMeForm .btnDiv {
+#contactMeForm .btnDiv {
   margin-top: 15px;
   text-align: center;
 }
 
-.contactMeForm .inputDiv {
+#contactMeForm .inputDiv {
   margin: 15px 10px;
 }
 

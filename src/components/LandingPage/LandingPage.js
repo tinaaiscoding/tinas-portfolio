@@ -87,15 +87,22 @@ const LandingPage = () => {
     zIndex: '100',
   };
 
-  const inActive = {
-    zIndex: '2',
-  };
+  console.log(projectsDirVisible)
+  console.log(projectsDirActive);
+
+  console.log(aboutMeVisible)
+  console.log(aboutMeActive)
 
   return (
     <div>
       <DesktopIcons
         setProjectsDirVisible={setProjectsDirVisible}
+        setProjectsDirActive={setProjectsDirActive}
         setCreditsVisible={setCreditsVisible}
+        setCreditsActive={setCreditsActive}
+        setResumeActive={setResumeActive}
+        setContactMeActive={setContactMeActive}
+        setAboutMeActive={setAboutMeActive}
       />
 
       <Dockbar
@@ -141,6 +148,7 @@ const LandingPage = () => {
 
       {creditsVisible && (
         <Credits
+          style={creditsActive ? active : ''}
           onCloseWindow={closeCreditHandler}
           onWindowClick={activeCreditsHandler}
         />

@@ -13,17 +13,31 @@ import credits2 from '../../images/icons/credits2.png';
 
 const DesktopIcons = (props) => {
   const openProjectDirHandler = () => {
-    props.setProjectsDirVisible(true)
-  }
+    props.setProjectsDirVisible(true);
+    props.setProjectsDirActive(true);
+    props.setCreditsActive(false);
+    props.setResumeActive(false);
+    props.setContactMeActive(false);
+    props.setAboutMeActive(false);
+  };
 
   const openCreditsHandler = () => {
-    props.setCreditsVisible(true)
-  }
+    props.setCreditsVisible(true);
+    props.setCreditsActive(true);
+    props.setProjectsDirActive(false);
+    props.setResumeActive(false);
+    props.setContactMeActive(false);
+    props.setAboutMeActive(false);
+  };
 
   return (
     <div>
       <div className={classes.leftDesktopIcons}>
-        <DesktopIcon name="Projects" imgSrc={wwwFolder} dblClickHandler={openProjectDirHandler}></DesktopIcon>
+        <DesktopIcon
+          name="Projects"
+          imgSrc={wwwFolder}
+          dblClickHandler={openProjectDirHandler}
+        ></DesktopIcon>
 
         <a
           onClick={(event) => event.preventDefault()}
@@ -58,7 +72,11 @@ const DesktopIcons = (props) => {
 
       <div className={classes.rightDesktopIcons}>
         <DesktopIcon name="Trash Can" imgSrc={trash}></DesktopIcon>
-        <DesktopIcon name="Credits" imgSrc={credits2} dblClickHandler={openCreditsHandler}></DesktopIcon>
+        <DesktopIcon
+          name="Credits"
+          imgSrc={credits2}
+          dblClickHandler={openCreditsHandler}
+        ></DesktopIcon>
       </div>
     </div>
   );

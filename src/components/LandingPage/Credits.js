@@ -6,7 +6,7 @@ import classes from './Credits.module.css';
 const Credits = (props) => {
   return (
     <Window
-      className={classes.credits}
+      id={classes.credits}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}

@@ -18,7 +18,7 @@ const ProjectsDir = (props) => {
 
   return (
     <Window
-      className={classes.projectsDir}
+      id={classes.projectsDir}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
     >

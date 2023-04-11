@@ -57,7 +57,7 @@ const ContactMeForm = (props) => {
 
   return (
     <Window
-      className={`${classes.contactMeForm}`}
+      id={`${classes.contactMeForm}`}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}
