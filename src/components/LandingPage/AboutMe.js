@@ -6,7 +6,7 @@ const AboutMe = (props) => {
   
   return (
     <Window onCloseWindow={props.onCloseWindow} onWindowClick={props.onWindowClick} style={props.style}>
-      <div className={classes.aboutMe}>
+      <div className={`${classes.aboutMe}`}>
         <div className={classes.aboutMeHeader}>
           <div className={classes.typewriter}>
             <h2>Hi, I'm Tina!</h2>

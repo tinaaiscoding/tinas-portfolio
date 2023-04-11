@@ -17,7 +17,7 @@ const LandingPage = () => {
   const [contactMeVisible, setContactMeVisible] = useState(false);
   const [projectsDirVisible, setProjectsDirVisible] = useState(false);
   const [creditsVisible, setCreditsVisible] = useState(false);
-  const [aboutMeActive, setAboutMeActive] = useState(false);
+  const [aboutMeActive, setAboutMeActive] = useState(true);
   const [resumeActive, setResumeActive] = useState(false);
   const [contactMeActive, setContactMeActive] = useState(false);
   const [projectsDirActive, setProjectsDirActive] = useState(false);
@@ -87,6 +87,10 @@ const LandingPage = () => {
     zIndex: '100',
   };
 
+  const inActive = {
+    zIndex: '2',
+  };
+
   return (
     <div>
       <DesktopIcons
@@ -96,8 +100,11 @@ const LandingPage = () => {
 
       <Dockbar
         setResumeVisible={setResumeVisible}
+        setResumeActive={setResumeActive}
         setContactMeVisible={setContactMeVisible}
+        setContactMeActive={setContactMeActive}
         setAboutMeVisible={setAboutMeVisible}
+        setAboutMeActive={setAboutMeActive}
       />
 
       {projectsDirVisible && (

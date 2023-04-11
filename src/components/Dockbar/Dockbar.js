@@ -15,14 +15,23 @@ const Dockbar = (props) => {
 
   const openResumeHandler = () => {
     props.setResumeVisible(true);
+    props.setResumeActive(true);
+    props.setAboutMeActive(false);
+    props.setContactMeActive(false);
   };
 
   const openContactMeFormHandler = () => {
     props.setContactMeVisible(true);
+    props.setContactMeActive(true);
+    props.setAboutMeActive(false);
+    props.setResumeActive(false);
   };
 
   const openAboutMeHandler = () => {
     props.setAboutMeVisible(true);
+    props.setAboutMeActive(true);
+    props.setContactMeActive(false);
+    props.setResumeActive(false);
   };
 
   return (
@@ -36,7 +45,6 @@ const Dockbar = (props) => {
         name="Resume"
         imgSrc={resume}
         onIconClick={openResumeHandler}
-        className='maximize'
       ></DockbarIcon>
       <DockbarIcon
         name="Drop a msg!"

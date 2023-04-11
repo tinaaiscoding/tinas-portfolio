@@ -82,7 +82,7 @@
   height: 93.2%;
   left: 0;
   background: rgba(245, 245, 247);
-  z-index: 15;
+  /* z-index: 15; */
   pointer-events: none;
   /* display: none; */
   pointer-events: all;
