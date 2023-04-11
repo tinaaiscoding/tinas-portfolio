@@ -20,13 +20,17 @@
 -->
 
 <h3 align="center">Tina's Portfolio</h3>
-
+<br>
   <p align="center">
-    :construction: CURRENTLY BUILDING... :construction:
-    <br />
+    :construction:   UNDER CONSTRUCTION   :construction:
   </p>
+  
+  <h3 align="center">
+    View current site <a href="https://tina-vo.vercel.app/">here</a>
+  </h3>
 </div>
 
+<br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
