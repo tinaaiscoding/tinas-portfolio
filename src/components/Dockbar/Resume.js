@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactComponent as ResumeSvg } from '../../images/resume.svg';
+import resume from '../../images/resume.png';
 
 import Window from '../UI/Window';
 import classes from './Resume.module.css';
@@ -13,7 +13,7 @@ const Resume = (props) => {
       onWindowClick={props.onWindowClick}
       style={props.style}
     >
-      <ResumeSvg></ResumeSvg>
+      <img className={`${classes.resumeImg}`} src={resume} alt="" />
     </Window>
   );
 };

@@ -2,6 +2,11 @@
   overflow-y: scroll;
   width: max-content;
   height: 80%;
+  width: 65%;
   top: 5%;
   left: 22.3%;
+}
+
+.resumeImg {
+  width: 100%;
 }
