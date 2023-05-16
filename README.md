@@ -55,15 +55,15 @@ I took a lot of inspiration from Pinterest and incorporated my own flair to it. 
 I hope you enjoy!
 
 ### App screenshots 
-![project-screenshot-1](/tinas-portfolio/src/images/READMEImages/project-screenshot-1.png)
+![project-screenshot-1](./src/images/READMEImages/project-screenshot-1.png)
 _Landing page_
 <br>
 <br>
-![project-screenshot-2](/tinas-portfolio/src/images/READMEImages/project-screenshot-2.png)
+![project-screenshot-2](./src/images/READMEImages/project-screenshot-2.png)
 _Resume and contact form, displaying multiple "windows"_
 <br>
 <br>
-![project-screenshot-3](/tinas-portfolio/src/images/READMEImages/project-screenshot-3.png)
+![project-screenshot-3](./src/images/READMEImages/project-screenshot-3.png)
 _Project folder_
 <p align="right"><a href="#readme-top">:top:</a></p>
 
@@ -85,16 +85,16 @@ _Project folder_
 
 ## :sparkles: Wireframes and Inspiration
 
-![colour-palette-1](/tinas-portfolio/src/images/READMEImages/colour-palette-1.png)
-![colour-palette-2](/tinas-portfolio/src/images/READMEImages/colour-palette-2.png)
+![colour-palette-1](./src/images/READMEImages/colour-palette-1.png)
+![colour-palette-2](./src/images/READMEImages/colour-palette-2.png)
 *Colour palettes*
 <br>
 <br>
-![pinterest-mood-board](/tinas-portfolio/src/images/READMEImages/pinterest-mood-board.png)
+![pinterest-mood-board](./src/images/READMEImages/pinterest-mood-board.png)
 *Pinterest mood board*
 <br>
 <br>
-![wireframes](/tinas-portfolio/src/images/READMEImages/wireframes.png)
+![wireframes](./src/images/READMEImages/wireframes.png)
 *Wireframe done with Figma*
 
 <p align="right"><a href="#readme-top">:top:</a></p>
@@ -133,8 +133,8 @@ Additional features
 - Add toast components to quote favourite TV show (for more personality)
 
 ### Trello screenshots
-![trello-screenshot-1](/tinas-portfolio/src/images/READMEImages/trello-screenshot-1.png)
-![trello-screenshot-2](/tinas-portfolio/src/images/READMEImages/trello-screenshot-2.png)
+![trello-screenshot-1](./src/images/READMEImages/trello-screenshot-1.png)
+![trello-screenshot-2](./src/images/READMEImages/trello-screenshot-2.png)
 
 <!-- See the [open issues](https://github.com/tinaaiscoding/tinas-portfolio/issues) for a full list of proposed features (and known issues). -->
 
