@@ -50,9 +50,7 @@
 
 This is my portfolio I've created after finishing my bootcamp with General Assembly. I've always wanted to create this kind of computer layout design and I had a lot of fun doing this project.
 
-I took a lot of inspiration from Pinterest and incorporated my own flair to it. I love creating beautiful and fun desgins, so the planning and creation of mood boards are crucial to me. The colour palette itself took me two hours! 😅 I take a lot of pride into creating eye-catching designs.
-
-I hope you enjoy!
+I took a lot of inspiration from Pinterest and incorporated my own flair to it. I love creating beautiful and fun designs, therefore the planning and creation of mood boards are crucial to me. The colour palette itself took me two hours! 😅 I take a lot of pride into creating eye-catching designs, so I hope you enjoy!
 
 ### App screenshots 
 ![project-screenshot-1](./src/images/READMEImages/project-screenshot-1.png)
@@ -134,7 +132,13 @@ Additional features
 
 ### Trello screenshots
 ![trello-screenshot-1](./src/images/READMEImages/trello-screenshot-1.png)
+*Trello dated 22-2-23*
+<br>
+<br>
 ![trello-screenshot-2](./src/images/READMEImages/trello-screenshot-2.png)
+*Trello dated 19-3-23*
+<br>
+<br>
 
 <!-- See the [open issues](https://github.com/tinaaiscoding/tinas-portfolio/issues) for a full list of proposed features (and known issues). -->
 
