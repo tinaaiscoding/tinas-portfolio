@@ -17,7 +17,7 @@
 }
 
 .tile:before {
-  background-color: #f4ebdc;
+  background-color: #fff5f8;
   content: '';
   inset: 0.5px;
   position: absolute;

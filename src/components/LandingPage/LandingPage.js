@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import classes from './LandingPage.module.css';
+// import classes from './LandingPage.module.css';
 
 import TilesBg from '../UI/TilesBg';
 import AboutMe from './AboutMe';
