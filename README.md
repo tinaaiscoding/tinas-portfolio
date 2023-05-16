@@ -10,14 +10,16 @@
 -->
 
 <!-- PROJECT LOGO -->
-<br />
-
+<div align="center">
+  <img src="./src/images/READMEImages/onigiri2.png" alt="hello" width="80"> 
+</div>
 <!--
 <div align="center">
   <a href="https://github.com/tinaaiscoding/tinas-portfolio">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 -->
+<br>
 
 <h1 align="center">Tina's Portfolio</h1>
   <h3 align="center">
@@ -25,52 +27,75 @@
   </h3>
 </div>
 
-<br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#pencil-about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#rocket-built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#pencil-about-the-project">About The Project</a></li>
+    <li><a href="#rocket-technologies">Technologies</a></li>
+    <li><a href="#sparkles-wireframes-and-inspiration">Wireframes and Inspiration</a></li>
     <li><a href="#computer-usage">Usage</a></li>
     <li><a href="#car-roadmap">Roadmap</a></li>
-    <li><a href="#star-license">License</a></li>
     <li><a href="#iphone-contact">Contact</a></li>
-    <li><a href="#bow-acknowledgments">Acknowledgments</a></li>
+    <li><a href="#bow-acknowledgments-and-licenses">Acknowledgments and Licenses</a></li>
   </ol>
 </details>
 
+<br>
 <!-- ABOUT THE PROJECT -->
 
 ## :pencil: About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This is my portfolio I've created after finishing my bootcamp with General Assembly. I've always wanted to create this kind of computer layout design and I had a lot of fun doing this project. 
+This is my portfolio I've created after finishing my bootcamp with General Assembly. I've always wanted to create this kind of computer layout design and I had a lot of fun doing this project.
 
-I took a lot of inspiration from Pinterest and incorporated my own flair to it. I love creating beautiful and fun desgins, so the planning and creation of mood boards are crucial to me. The colour palette itself took me two hours! 😅 I take a lot of pride into creating eye-catching designs. 
+I took a lot of inspiration from Pinterest and incorporated my own flair to it. I love creating beautiful and fun desgins, so the planning and creation of mood boards are crucial to me. The colour palette itself took me two hours! 😅 I take a lot of pride into creating eye-catching designs.
 
 I hope you enjoy!
 
+### App screenshots 
+![project-screenshot-1](/tinas-portfolio/src/images/READMEImages/project-screenshot-1.png)
+_Landing page_
+<br>
+<br>
+![project-screenshot-2](/tinas-portfolio/src/images/READMEImages/project-screenshot-2.png)
+_Resume and contact form, displaying multiple "windows"_
+<br>
+<br>
+![project-screenshot-3](/tinas-portfolio/src/images/READMEImages/project-screenshot-3.png)
+_Project folder_
 <p align="right"><a href="#readme-top">:top:</a></p>
 
-### :rocket: Technologies
+## :rocket: Technologies
 
 [![Behance][behance]][behance-url]
 [![Canva][canva]][canva-url]
-[![CSS3][css3]][css-url] 
-[![Figma][figma]][figma-url] 
+[![CSS3][css3]][css-url]
+[![Figma][figma]][figma-url]
 [![Git][git]][git-url]
-[![Javascript][javascript]][javascript-url] 
+[![Javascript][javascript]][javascript-url]
 [![macOS][macOS]][macOS-url]
 [![NPM][npm]][npm-url]
 [![Pinterest][pinterest]][pinterest-url]
-[![React][react.js]][react-url] 
+[![React][react.js]][react-url]
 [![Vercel][vercel]][vercel-url]
+
+<p align="right"><a href="#readme-top">:top:</a></p>
+
+## :sparkles: Wireframes and Inspiration
+
+![colour-palette-1](/tinas-portfolio/src/images/READMEImages/colour-palette-1.png)
+![colour-palette-2](/tinas-portfolio/src/images/READMEImages/colour-palette-2.png)
+*Colour palettes*
+<br>
+<br>
+![pinterest-mood-board](/tinas-portfolio/src/images/READMEImages/pinterest-mood-board.png)
+*Pinterest mood board*
+<br>
+<br>
+![wireframes](/tinas-portfolio/src/images/READMEImages/wireframes.png)
+*Wireframe done with Figma*
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
@@ -103,8 +128,13 @@ The layout replicates Apple Mac's operation system. The dockbar on the bottom th
 - Deployment
 
 Additional features
+
 - Create a "log in" page
-- Add toast components to quote favourite TV show (for a bit more
+- Add toast components to quote favourite TV show (for more personality)
+
+### Trello screenshots
+![trello-screenshot-1](/tinas-portfolio/src/images/READMEImages/trello-screenshot-1.png)
+![trello-screenshot-2](/tinas-portfolio/src/images/READMEImages/trello-screenshot-2.png)
 
 <!-- See the [open issues](https://github.com/tinaaiscoding/tinas-portfolio/issues) for a full list of proposed features (and known issues). -->
 
@@ -122,8 +152,10 @@ Project Link: [https://github.com/tinaaiscoding/tinas-portfolio](https://github.
 
 <!-- ACKNOWLEDGMENTS & LICENSE -->
 
-## :bow: Acknowledgments & License
+## :bow: Acknowledgments and Licenses
+
 [Distributed under the MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
+
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 <!-- * []()
 - []() -->
@@ -152,6 +184,7 @@ Project Link: [https://github.com/tinaaiscoding/tinas-portfolio](https://github.
 [javascript-url]: https://www.javascript.com/
 [css3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://www.w3.org/TR/CSS/#css
+
 [figma]: https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white]
 [figma-url]: https://www.figma.com/
 [pinterest]: https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white
@@ -164,21 +197,7 @@ Project Link: [https://github.com/tinaaiscoding/tinas-portfolio](https://github.
 [git-url]: https://git-scm.com/
 [macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [macOS-url]: https://www.apple.com/au/macos
-[npm]: https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white 
+[npm]: https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white
 [npm-url]: https://www.npmjs.com/
 [vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
 [vercel-url]: https://vercel.com/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
