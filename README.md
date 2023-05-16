@@ -19,12 +19,7 @@
   </a>
 -->
 
-<h3 align="center">Tina's Portfolio</h3>
-<br>
-  <p align="center">
-    :construction:   UNDER CONSTRUCTION   :construction:
-  </p>
-  
+<h1 align="center">Tina's Portfolio</h1>
   <h3 align="center">
     View current site <a href="https://tina-vo.vercel.app/">here</a>
   </h3>
@@ -55,15 +50,27 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This is my portfolio.
+This is my portfolio I've created after finishing my bootcamp with General Assembly. I've always wanted to create this kind of computer layout design and I had a lot of fun doing this project. 
+
+I took a lot of inspiration from Pinterest and incorporated my own flair to it. I love creating beautiful and fun desgins, so the planning and creation of mood boards are crucial to me. The colour palette itself took me two hours! 😅 I take a lot of pride into creating eye-catching designs. 
+
+I hope you enjoy!
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
-### :rocket: Built With
+### :rocket: Technologies
 
-- [![React][react.js]][react-url]
-- [![Javascript][javascript]][javascript-url]
-- [![CSS3][css3]][css-url]
+[![Behance][behance]][behance-url]
+[![Canva][canva]][canva-url]
+[![CSS3][css3]][css-url] 
+[![Figma][figma]][figma-url] 
+[![Git][git]][git-url]
+[![Javascript][javascript]][javascript-url] 
+[![macOS][macOS]][macOS-url]
+[![NPM][npm]][npm-url]
+[![Pinterest][pinterest]][pinterest-url]
+[![React][react.js]][react-url] 
+[![Vercel][vercel]][vercel-url]
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
@@ -71,9 +78,7 @@ This is my portfolio.
 
 ## :computer: Usage
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
+The layout replicates Apple Mac's operation system. The dockbar on the bottom that holds "applications" to information and a contact me form. The desktop page also has folders and files that requires a double-click to open. The social icons (when double-clicked) will take you directly to my profile.
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
@@ -81,21 +86,27 @@ This is my portfolio.
 
 ## :car: Roadmap
 
-- [ ] Basic skeleton of Landing Page
-- [ ] "Portfolio directory"
-  - [ ] Gallery view of projects
-- [ ] Dockbar
-  <!-- - [ ] Nested Feature -->
+- Basic skeleton of Landing Page
+- Desktop icons
+  - "Portfolio folder"
+    - Gallery view of projects
+    - Links to deloyed projects
+    - Informationa about projects
+  - Social media icons - links directly to profile
+- Dockbar
+  - About me
+  - Resume
+  - Contact form
+- Credits
+- Animation of typing for main greeting text.
+- Media queries
+- Deployment
+
+Additional features
+- Create a "log in" page
+- Add toast components to quote favourite TV show (for a bit more
 
 <!-- See the [open issues](https://github.com/tinaaiscoding/tinas-portfolio/issues) for a full list of proposed features (and known issues). -->
-
-<p align="right"><a href="#readme-top">:top:</a></p>
-
-<!-- LICENSE -->
-
-## :star: License
-
-[Distributed under the MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
@@ -109,10 +120,10 @@ Project Link: [https://github.com/tinaaiscoding/tinas-portfolio](https://github.
 
 <p align="right"><a href="#readme-top">:top:</a></p>
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS & LICENSE -->
 
-## :bow: Acknowledgments
-
+## :bow: Acknowledgments & License
+[Distributed under the MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 <!-- * []()
 - []() -->
@@ -141,3 +152,33 @@ Project Link: [https://github.com/tinaaiscoding/tinas-portfolio](https://github.
 [javascript-url]: https://www.javascript.com/
 [css3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://www.w3.org/TR/CSS/#css
+[figma]: https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white]
+[figma-url]: https://www.figma.com/
+[pinterest]: https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white
+[pinterest-url]: https://www.pinterest.com.au/
+[canva]: https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white
+[canva-url]: https://www.canva.com/
+[behance]: https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white
+[behance-url]: https://www.behance.net/
+[git]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
+[git-url]: https://git-scm.com/
+[macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
+[macOS-url]: https://www.apple.com/au/macos
+[npm]: https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white 
+[npm-url]: https://www.npmjs.com/
+[vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[vercel-url]: https://vercel.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
