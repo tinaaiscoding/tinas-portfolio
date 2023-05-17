@@ -87,12 +87,6 @@ const LandingPage = () => {
     zIndex: '100',
   };
 
-  console.log(projectsDirVisible)
-  console.log(projectsDirActive);
-
-  console.log(aboutMeVisible)
-  console.log(aboutMeActive)
-
   return (
     <div>
       <DesktopIcons

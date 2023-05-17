@@ -11,7 +11,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <img src="./src/images/READMEImages/onigiri2.png" alt="hello" width="80"> 
+  <img src="./src/images/onigiri2.png" alt="hello" width="80"> 
 </div>
 <!--
 <div align="center">

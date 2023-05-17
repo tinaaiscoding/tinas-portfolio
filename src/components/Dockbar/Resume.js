@@ -8,12 +8,14 @@ import classes from './Resume.module.css';
 const Resume = (props) => {
   return (
     <Window
-      id={`${classes.resume}`}
+      id={classes.resumeWindow}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}
     >
-      <img className={`${classes.resumeImg}`} src={resume} alt="" />
+      <div className={classes.resume}>
+        <img className={`${classes.resumeImg}`} src={resume} alt="" />
+      </div>
     </Window>
   );
 };

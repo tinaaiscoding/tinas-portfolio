@@ -69,6 +69,7 @@
 }
 
 .content {
-  height: 100%;
   overflow-y: scroll;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }

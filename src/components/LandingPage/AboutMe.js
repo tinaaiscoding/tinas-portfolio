@@ -3,24 +3,30 @@ import Window from '../UI/Window';
 import classes from './AboutMe.module.css';
 
 const AboutMe = (props) => {
-  
   return (
-    <Window onCloseWindow={props.onCloseWindow} onWindowClick={props.onWindowClick} style={props.style}>
-      <div id={`${classes.aboutMe}`}>
+    <Window
+      onCloseWindow={props.onCloseWindow}
+      onWindowClick={props.onWindowClick}
+      style={props.style}
+    >
+      <div id={classes.aboutMe}>
         <div className={classes.aboutMeHeader}>
           <div className={classes.typewriter}>
             <h2>Hi, I'm Tina!</h2>
           </div>
         </div>
 
-        <span
-          className={`material-symbols-outlined ${classes.bounceArrow} ${classes.bounce}`}
-        >
-          expand_more
-        </span>
+        <a href="#about-me-section">
+          <span
+            className={`material-symbols-outlined ${classes.bounceArrow} ${classes.bounce}`}
+          >
+            expand_more
+          </span>
+        </a>
 
-        <section className={classes.aboutMeContent}>
-          <h3>ABOUT ME</h3>
+        <h3 id="about-me-section">ABOUT ME</h3>
+
+        <div className={classes.aboutMeContent}>
           <p>
             Having built my professional skills in customer experience roles and
             the hospitality industry over the past 10 years, I decided it was
@@ -50,7 +56,7 @@ const AboutMe = (props) => {
             inspiration from others and hope to work with a supportive and open
             team.
           </p>
-        </section>
+        </div>
       </div>
     </Window>
   );
