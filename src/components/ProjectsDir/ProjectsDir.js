@@ -18,33 +18,36 @@ const ProjectsDir = (props) => {
 
   return (
     <Window
-      id={classes.projectsDir}
+      id={classes.projectsDirWindow}
+      className={props.className}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
     >
-      <div className={classes.grid}>
-        <div className={classes.sidebar}>
-          <SideBar />
-        </div>
+      <div className={classes.projectsDir}>
+        <div className={classes.grid}>
+          <div className={classes.sidebar}>
+            <SideBar />
+          </div>
 
-        <div className={classes.gallery}>
-          <Gallery
-            defaultSlide={defaultSlide}
-            tttClicked={tttClicked}
-            notingClicked={notingClicked}
-            pokeBattlesClicked={pokeBattlesClicked}
-            voyageClicked={voyageClicked}
-          ></Gallery>
-        </div>
+          <div className={classes.gallery}>
+            <Gallery
+              defaultSlide={defaultSlide}
+              tttClicked={tttClicked}
+              notingClicked={notingClicked}
+              pokeBattlesClicked={pokeBattlesClicked}
+              voyageClicked={voyageClicked}
+            ></Gallery>
+          </div>
 
-        <div className={classes.projectIcons}>
-          <ProjectIcons
-            setDefaultSlide={setDefaultSlide}
-            setTttClicked={setTttClicked}
-            setNotingClicked={setNotingClicked}
-            setPokeBattlesClicked={setPokeBattlesClicked}
-            setVoyageClicked={setVoyageClicked}
-          ></ProjectIcons>
+          <div className={classes.projectIcons}>
+            <ProjectIcons
+              setDefaultSlide={setDefaultSlide}
+              setTttClicked={setTttClicked}
+              setNotingClicked={setNotingClicked}
+              setPokeBattlesClicked={setPokeBattlesClicked}
+              setVoyageClicked={setVoyageClicked}
+            ></ProjectIcons>
+          </div>
         </div>
       </div>
     </Window>

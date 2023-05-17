@@ -5,6 +5,7 @@ import classes from './AboutMe.module.css';
 const AboutMe = (props) => {
   return (
     <Window
+      className={props.className}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}

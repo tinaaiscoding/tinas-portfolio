@@ -10,7 +10,7 @@ import onigiri from '../../images/icons/onigiri.png';
 
 const Dockbar = (props) => {
   const openMacHandler = () => {
-    console.log('mac');
+    console.log('hello');
   };
 
   const openResumeHandler = () => {
@@ -18,6 +18,8 @@ const Dockbar = (props) => {
     props.setResumeActive(true);
     props.setAboutMeActive(false);
     props.setContactMeActive(false);
+    props.setCreditsActive(false);
+    props.setProjectsDirActive(false);
   };
 
   const openContactMeFormHandler = () => {
@@ -25,6 +27,8 @@ const Dockbar = (props) => {
     props.setContactMeActive(true);
     props.setAboutMeActive(false);
     props.setResumeActive(false);
+    props.setCreditsActive(false);
+    props.setProjectsDirActive(false);
   };
 
   const openAboutMeHandler = () => {
@@ -32,6 +36,8 @@ const Dockbar = (props) => {
     props.setAboutMeActive(true);
     props.setContactMeActive(false);
     props.setResumeActive(false);
+    props.setCreditsActive(false);
+    props.setProjectsDirActive(false);
   };
 
   return (

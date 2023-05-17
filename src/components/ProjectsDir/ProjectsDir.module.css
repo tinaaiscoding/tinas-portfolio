@@ -1,8 +1,12 @@
-#projectsDir {
+#projectsDirWindow {
   height: 100%;
   width: 100%;
   top: 0%;
   left: 0%;
+}
+
+.projectsDir {
+  height: 100vh;
 }
 
 .grid {
@@ -17,14 +21,6 @@
   border-right: 1px solid #46467a;
   border-bottom-left-radius: 10px;
   grid-area: 1 / 1 / 3 / 2;
-}
-
-.gallery {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-.projectsDir {
-  grid-area: 2 / 2 / 3 / 3;
 }
 
 .sidebar ul {

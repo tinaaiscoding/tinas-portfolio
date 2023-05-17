@@ -2,7 +2,7 @@
   background: white;
   box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
   border-radius: 10px;
-  z-index: 1;
+  /* z-index: 1; */
   position: absolute;
   border: 2px solid #46467a;
   width: 45%;
@@ -64,9 +64,9 @@
   color: rgb(91, 214, 109);
 }
 
-.isActive {
+/* .isActive {
   z-index: 100;
-}
+} */
 
 .content {
   overflow-y: scroll;

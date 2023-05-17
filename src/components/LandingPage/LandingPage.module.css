@@ -1,0 +1,7 @@
+.active {
+  z-index: 100;
+}
+
+.inActive {
+  z-index: 1;
+}

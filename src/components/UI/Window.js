@@ -10,7 +10,7 @@ const Window = (props) => {
       
       <div
         id={props.id}
-        className={classes.window}
+        className={`${props.className} ${classes.window}`}
         onClick={props.onWindowClick}
         style={props.style}
       >

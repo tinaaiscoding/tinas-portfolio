@@ -9,6 +9,7 @@ const Resume = (props) => {
   return (
     <Window
       id={classes.resumeWindow}
+      className={props.className}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}

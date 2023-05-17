@@ -6,7 +6,7 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import classes from './SideBar.module.css';
 
-const SideBar = (props) => {
+const SideBar = () => {
   const [visibleTTTLeft, setVisibleTTTLeft] = useState(false);
   const [visibleNotingLeft, setVisibleNotingLeft] = useState(false);
   const [visiblePokeBattlesLeft, setVisiblePokeBattlesLeft] = useState(false);
@@ -15,7 +15,6 @@ const SideBar = (props) => {
   return (
     <div>
       <ul>
-        <li>ALL PROJECTS</li>
         <li onClick={() => setVisibleTTTLeft(true)}>TIC-TAC-TOE</li>
         <li onClick={() => setVisibleNotingLeft(true)}>NOTING</li>
         <li onClick={() => setVisiblePokeBattlesLeft(true)}>POKÉ BATTLES</li>

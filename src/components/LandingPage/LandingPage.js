@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// import classes from './LandingPage.module.css';
+import classes from './LandingPage.module.css';
 
 import TilesBg from '../UI/TilesBg';
 import AboutMe from './AboutMe';
@@ -22,6 +22,7 @@ const LandingPage = () => {
   const [contactMeActive, setContactMeActive] = useState(false);
   const [projectsDirActive, setProjectsDirActive] = useState(false);
   const [creditsActive, setCreditsActive] = useState(false);
+
 
   const closeAboutMeHandler = () => {
     setAboutMeVisible(false);
@@ -83,10 +84,6 @@ const LandingPage = () => {
     setCreditsActive(true);
   };
 
-  const active = {
-    zIndex: '100',
-  };
-
   return (
     <div>
       <DesktopIcons
@@ -106,11 +103,13 @@ const LandingPage = () => {
         setContactMeActive={setContactMeActive}
         setAboutMeVisible={setAboutMeVisible}
         setAboutMeActive={setAboutMeActive}
+        setCreditsActive={setCreditsActive}
+        setProjectsDirActive={setProjectsDirActive}
       />
 
       {projectsDirVisible && (
         <ProjectsDir
-          style={projectsDirActive ? active : ''}
+          className={projectsDirActive ? classes.active : classes.inActive}
           onCloseWindow={closeProjectDirHandler}
           onWindowClick={activeProjectHandler}
         />
@@ -118,7 +117,7 @@ const LandingPage = () => {
 
       {aboutMeVisible && (
         <AboutMe
-          style={aboutMeActive ? active : ''}
+          className={aboutMeActive ? classes.active : classes.inActive}
           onCloseWindow={closeAboutMeHandler}
           onWindowClick={activeAboutMeHandler}
         />
@@ -126,7 +125,8 @@ const LandingPage = () => {
 
       {resumeVisible && (
         <Resume
-          style={resumeActive ? active : ''}
+          className={resumeActive ? classes.active : classes.inActive}
+
           onCloseWindow={closeResumeHandler}
           onWindowClick={activeResumeHandler}
         />
@@ -134,7 +134,7 @@ const LandingPage = () => {
 
       {contactMeVisible && (
         <ContactMeForm
-          style={contactMeActive ? active : ''}
+          className={contactMeActive ? classes.active : classes.inActive}
           onCloseWindow={closeContactMeHandler}
           onWindowClick={activeContactMeHandler}
         />
@@ -142,7 +142,7 @@ const LandingPage = () => {
 
       {creditsVisible && (
         <Credits
-          style={creditsActive ? active : ''}
+          className={creditsActive ? classes.active : classes.inActive}
           onCloseWindow={closeCreditHandler}
           onWindowClick={activeCreditsHandler}
         />
