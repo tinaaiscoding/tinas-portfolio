@@ -91,3 +91,12 @@
     transform: translateY(0);
   }
 }
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Laptop */
+@media only screen and (max-width: 1440px)  {
+  #aboutMe {
+    height: 318px;
+  }
+}

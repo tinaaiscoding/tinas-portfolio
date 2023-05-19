@@ -22,3 +22,12 @@
 .creditsContent a:hover {
   color: #a580e4
 }
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Laptop */
+@media only screen and (max-width: 1440px)  {
+  .credits {
+    height: 418px;
+  }
+}
