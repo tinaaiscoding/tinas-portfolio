@@ -82,9 +82,11 @@ _Project folder_
 <p align="right"><a href="#readme-top">:top:</a></p>
 
 ## :sparkles: Wireframes and Inspiration
+<p float="left">
+  <img src="./src/images/READMEImages/colour-palette-1.png" width="500" />
+  <img src="./src/images/READMEImages/colour-palette-2.png" width="500" />
+</p>
 
-![colour-palette-1](./src/images/READMEImages/colour-palette-1.png)
-![colour-palette-2](./src/images/READMEImages/colour-palette-2.png)
 *Colour palettes*
 <br>
 <br>
