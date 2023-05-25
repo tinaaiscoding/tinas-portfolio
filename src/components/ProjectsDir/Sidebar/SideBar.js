@@ -6,14 +6,14 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import classes from './SideBar.module.css';
 
-const SideBar = () => {
+const SideBar = (props) => {
   const [visibleTTTLeft, setVisibleTTTLeft] = useState(false);
   const [visibleNotingLeft, setVisibleNotingLeft] = useState(false);
   const [visiblePokeBattlesLeft, setVisiblePokeBattlesLeft] = useState(false);
   const [visibleVoyageLeft, setVisibleVoyageLeft] = useState(false);
 
   return (
-    <div>
+    <div id="sidebar">
       <ul>
         <li onClick={() => setVisibleTTTLeft(true)}>TIC-TAC-TOE</li>
         <li onClick={() => setVisibleNotingLeft(true)}>NOTING</li>
@@ -26,6 +26,7 @@ const SideBar = () => {
         visible={visibleTTTLeft}
         position="left"
         onHide={() => setVisibleTTTLeft(false)}
+        appendTo={document.querySelector('#sidebar')}
       >
         <h3>TIC-TAC-TOE</h3>
         <p>
@@ -53,6 +54,7 @@ const SideBar = () => {
         visible={visibleNotingLeft}
         position="left"
         onHide={() => setVisibleNotingLeft(false)}
+        appendTo={document.querySelector('#sidebar')}
       >
         <h3>NOTING</h3>
         <p>
@@ -73,6 +75,7 @@ const SideBar = () => {
         visible={visiblePokeBattlesLeft}
         position="left"
         onHide={() => setVisiblePokeBattlesLeft(false)}
+        appendTo={document.querySelector('#sidebar')}
       >
         <h3>POKÉ BATTLES</h3>
         <div className={classes.content}>
@@ -106,6 +109,7 @@ const SideBar = () => {
         visible={visibleVoyageLeft}
         position="left"
         onHide={() => setVisibleVoyageLeft(false)}
+        appendTo={document.querySelector('#sidebar')}
       >
         <h3>VOYAGE</h3>
         <p>
@@ -119,15 +123,11 @@ const SideBar = () => {
         </p>
 
         <p>External:</p>
-        <ul>
-          <li>Weather API</li>
-          <li>Location API</li>
-        </ul>
+          <p>- Weather API</p>
+          <p>- Location API</p>
 
         <p>Internal:</p>
-        <ul>
-          <li>Clothing API</li>
-        </ul>
+          <p>- Clothing API</p>
 
         <p>
           The app's main features will be for users to select their holiday

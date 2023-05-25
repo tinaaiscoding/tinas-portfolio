@@ -7,12 +7,10 @@ import 'primeicons/primeicons.css';
 const Window = (props) => {
   return (
     <Draggable handle=".actionBar">
-      
       <div
         id={props.id}
         className={`${props.className} ${classes.window}`}
         onClick={props.onWindowClick}
-        style={props.style}
       >
         <div className={`${classes.actionBar} actionBar`}>
           <span

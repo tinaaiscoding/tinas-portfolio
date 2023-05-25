@@ -25,8 +25,8 @@ const ProjectsDir = (props) => {
     >
       <div className={classes.projectsDir}>
         <div className={classes.grid}>
-          <div className={classes.sidebar}>
-            <SideBar />
+          <div className={classes.sidebarDiv}>
+            <SideBar/>
           </div>
 
           <div className={classes.gallery}>

@@ -4,6 +4,7 @@
 #sidebar4 {
   top: 38px;
   width: 28rem;
+  height: 94.8%;
 }
 
 #sidebar1 p,
@@ -11,7 +12,7 @@
 #sidebar3 p,
 #sidebar4 p {
   font-family: 'Roboto', sans-serif;
-  color: #46467A;
+  color: #46467a;
   margin-top: 20px;
   letter-spacing: 1px;
   line-height: 28px;
@@ -22,7 +23,7 @@
 #sidebar3 li,
 #sidebar4 li {
   font-family: 'Roboto', sans-serif;
-  color: #46467A;
+  color: #46467a;
   padding: 15px 0;
   list-style-type: none;
   margin-left: 0;
@@ -35,8 +36,21 @@
 #sidebar4 h3 {
   margin-top: 0;
 }
-
+/* 
 #sidebar3 {
   top: 18px;
-  height: 94.8%;
+} */
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Laptop */
+@media only screen and (max-width: 1440px) {
+  #sidebar1,
+  #sidebar2,
+  #sidebar3,
+  #sidebar4 {
+    top: 19px;
+    height: 95.1%;
+    border-bottom-left-radius: 6px;
+  }
 }

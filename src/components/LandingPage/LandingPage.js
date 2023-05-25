@@ -85,7 +85,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div>
+    <div id={classes.landingPage}>
       <DesktopIcons
         setProjectsDirVisible={setProjectsDirVisible}
         setProjectsDirActive={setProjectsDirActive}

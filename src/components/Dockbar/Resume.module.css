@@ -18,7 +18,10 @@
 /****************** MEDIA QUERIES ******************/
 /* Laptop */
 @media only screen and (max-width: 1440px)  {
+  #resumeWindow {
+    left: 17.5%;
+  }
   .resume {
-    height: 596px;
+    height: 571px;
   }
 }

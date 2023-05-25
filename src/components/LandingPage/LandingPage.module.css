@@ -1,3 +1,7 @@
+#landingPage {
+  position: relative;
+}
+
 .active {
   z-index: 100;
 }
