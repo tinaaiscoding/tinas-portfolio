@@ -3,11 +3,11 @@
   height: 80%;
   width: 65%;
   top: 5%;
-  left: 22.3%;
+  left: 14.8%;
 }
 
 .resume {
-  height: 714px;
+  height: 596px;
 }
 
 .resumeImg {
@@ -20,8 +20,5 @@
 @media only screen and (max-width: 1440px)  {
   #resumeWindow {
     left: 17.5%;
-  }
-  .resume {
-    height: 571px;
   }
 }
