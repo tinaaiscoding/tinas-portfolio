@@ -2,9 +2,10 @@
 #sidebar2,
 #sidebar3,
 #sidebar4 {
-  top: 38px;
+  top: 18px;
   width: 28rem;
-  height: 94.8%;
+  height: 96%;
+  border-bottom-left-radius: 8px;
 }
 
 #sidebar1 p,
@@ -52,5 +53,6 @@
     top: 19px;
     height: 95.1%;
     border-bottom-left-radius: 6px;
+    width: 23rem;
   }
 }

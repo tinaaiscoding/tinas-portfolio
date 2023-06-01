@@ -45,8 +45,7 @@ const ProjectIcons = (props) => {
       <a
         onClick={(event) => event.preventDefault()}
         onDoubleClick={() => {
-          window.location =
-            'https://tinaaiscoding.github.io/tic_tac_toe/';
+          window.location = 'https://tinaaiscoding.github.io/tic_tac_toe/';
         }}
         href="https://tinaaiscoding.github.io/tic_tac_toe/"
       >
@@ -59,8 +58,7 @@ const ProjectIcons = (props) => {
       <a
         onClick={(event) => event.preventDefault()}
         onDoubleClick={() => {
-          window.location =
-            'https://tinaaiscoding.github.io/tic_tac_toe/';
+          window.location = 'https://tinaaiscoding.github.io/tic_tac_toe/';
         }}
         href="https://tinaaiscoding.github.io/tic_tac_toe/"
       >
@@ -71,11 +69,19 @@ const ProjectIcons = (props) => {
         ></ProjectIcon>
       </a>
 
-      <ProjectIcon
-        name="Poké Battles"
-        imgSrc={pokebattles}
-        onIconClick={showPokeBattlesHandler}
-      ></ProjectIcon>
+      <a
+        onClick={(event) => event.preventDefault()}
+        onDoubleClick={() => {
+          window.location = 'https://pokebattles.mitch-obrien.com/';
+        }}
+        href="https://pokebattles.mitch-obrien.com/"
+      >
+        <ProjectIcon
+          name="Poké Battles"
+          imgSrc={pokebattles}
+          onIconClick={showPokeBattlesHandler}
+        ></ProjectIcon>
+      </a>
 
       <a
         onClick={(event) => event.preventDefault()}

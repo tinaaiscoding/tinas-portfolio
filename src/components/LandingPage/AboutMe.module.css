@@ -4,7 +4,7 @@
 
 #aboutMe {
   font-family: 'Roboto Mono', monospace;
-  height: 384px;
+  height: 399px;
   overflow-y: scroll;
 }
 
@@ -20,6 +20,7 @@
   width: 85%;
   margin: auto;
   scroll-behavior: smooth;
+  padding-bottom: 10px;
 }
 
 .aboutMeContent p {
@@ -101,6 +102,6 @@
 /* Laptop */
 @media only screen and (max-width: 1440px)  {
   #aboutMe {
-    height: 303px;
+    height: 317px;
   }
 }

@@ -26,9 +26,8 @@ const AboutMe = (props) => {
           </span>
         </a>
 
-        <h3 id="about-me-section">ABOUT ME</h3>
-
         <div className={classes.aboutMeContent}>
+          <h3 id="about-me-section">ABOUT ME</h3>
           <p>
             Having built my professional skills in customer experience roles and
             the hospitality industry over the past 10 years, I decided it was
