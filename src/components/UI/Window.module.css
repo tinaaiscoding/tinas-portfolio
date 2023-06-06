@@ -12,29 +12,28 @@
 }
 
 @keyframes fadeIn {
-  0% { 
-    opacity: 0; 
+  0% {
+    opacity: 0;
     transform: scale(0.8);
   }
-  100% { 
+  100% {
     opacity: 1;
     transform: scale(1);
   }
 }
-
 
 .actionBar {
   background-color: #7766c6;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   border-bottom: 2px solid #46467a;
-  height: max-content;
+  height: 10%;
 }
 
 .circleFill {
   border-radius: 100%;
   font-size: 0.8rem;
-  margin: 8px 3px;
+  margin: 11px 3px;
   border: 1px solid #46467a;
 }
 
@@ -71,4 +70,18 @@
   overflow-y: scroll;
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
+  height: 90%;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Laptop */
+@media only screen and (max-width: 1440px) {
+  .circleFill {
+    margin: 8px 3px;
+  }
+
+  .red {
+    margin-left: 10px;
+  }
 }

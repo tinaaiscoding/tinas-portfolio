@@ -13,6 +13,8 @@ const Resume = (props) => {
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}
+      actionBar={classes.actionBar}
+      content={classes.content}
     >
       <div className={classes.resume}>
         <img className={`${classes.resumeImg}`} src={resume} alt="" />

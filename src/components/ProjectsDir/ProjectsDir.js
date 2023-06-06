@@ -22,6 +22,8 @@ const ProjectsDir = (props) => {
       className={props.className}
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
+      actionBar={classes.actionBar}
+      content={classes.content}
     >
       <div className={classes.projectsDir}>
         <div className={classes.grid}>

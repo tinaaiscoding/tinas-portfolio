@@ -12,7 +12,7 @@ const Window = (props) => {
         className={`${props.className} ${classes.window}`}
         onClick={props.onWindowClick}
       >
-        <div className={`${classes.actionBar} actionBar`}>
+        <div className={`${classes.actionBar} actionBar ${props.actionBar}`}>
           <span
             className={`pi pi-circle-fill ${classes.red} ${classes.circleFill}`}
             onClick={props.onCloseWindow}
@@ -25,7 +25,7 @@ const Window = (props) => {
           ></span>
         </div>
 
-        <div className={`${classes.content}`}>{props.children}</div>
+        <div className={`${classes.content} ${props.content}`}>{props.children}</div>
       </div>
     </Draggable>
   );

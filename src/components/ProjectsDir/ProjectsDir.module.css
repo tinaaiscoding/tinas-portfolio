@@ -40,3 +40,12 @@
   background-color: #867ec4;
   color: white;
 }
+
+/* ProjectDir <Window> component's content */
+.actionBar {
+  height: 4.5%;
+}
+
+.content {
+  height: 95.5%;
+}

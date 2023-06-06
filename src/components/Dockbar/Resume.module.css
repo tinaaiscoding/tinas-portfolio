@@ -7,11 +7,20 @@
 }
 
 .resume {
-  height: 739px;
+  height: 100%;
 }
 
 .resumeImg {
   width: 100%;
+}
+
+/* Resume <Window> component's content */
+.actionBar {
+  height: 6%;
+}
+
+.content {
+  height: 94%;
 }
 
 /***************************************************/
@@ -20,9 +29,5 @@
 @media only screen and (max-width: 1440px)  {
   #resumeWindow {
     left: 17.5%;
-  }
-
-  .resume {
-    height: 596px;
   }
 }

@@ -4,7 +4,7 @@
 
 #aboutMe {
   font-family: 'Roboto Mono', monospace;
-  height: 399px;
+  height: 100%;
   overflow-y: scroll;
 }
 
@@ -94,14 +94,5 @@
   }
   100% {
     transform: translateY(0);
-  }
-}
-
-/***************************************************/
-/****************** MEDIA QUERIES ******************/
-/* Laptop */
-@media only screen and (max-width: 1440px)  {
-  #aboutMe {
-    height: 317px;
   }
 }

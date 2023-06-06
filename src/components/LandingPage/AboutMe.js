@@ -10,6 +10,8 @@ const AboutMe = (props) => {
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}
+      actionBar=''
+      content=''
     >
       <div id={classes.aboutMe}>
         <div className={classes.aboutMeHeader}>
