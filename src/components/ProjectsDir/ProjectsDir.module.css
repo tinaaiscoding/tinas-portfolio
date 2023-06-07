@@ -13,14 +13,14 @@
   height: 100%;
   display: grid;
   grid-template-columns: 0.3fr 1fr;
-  grid-template-rows: 1fr 0.38fr;
+  grid-template-rows: 1fr;
 }
 
 .sidebarDiv {
   background-color: #ebeaf8;
   border-right: 1px solid #46467a;
   border-bottom-left-radius: 10px;
-  grid-area: 1 / 1 / 3 / 2;
+  grid-area: 1 / 1 / 2 / 2;
   height: 94.8%;
 }
 
@@ -41,11 +41,19 @@
   color: white;
 }
 
+.projectContent {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.projectIcons {
+  margin-top: 45px;
+}
+
 /* ProjectDir <Window> component's content */
 .actionBar {
   height: 4.5%;
 }
 
 .content {
-  height: 95.5%;
+  height: 101%;
 }

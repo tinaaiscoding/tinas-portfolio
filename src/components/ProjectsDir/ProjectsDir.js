@@ -28,27 +28,29 @@ const ProjectsDir = (props) => {
       <div className={classes.projectsDir}>
         <div className={classes.grid}>
           <div className={classes.sidebarDiv}>
-            <SideBar/>
+            <SideBar />
           </div>
 
-          <div className={classes.gallery}>
-            <Gallery
-              defaultSlide={defaultSlide}
-              tttClicked={tttClicked}
-              notingClicked={notingClicked}
-              pokeBattlesClicked={pokeBattlesClicked}
-              voyageClicked={voyageClicked}
-            ></Gallery>
-          </div>
+          <div className={classes.projectContent}>
+            <div className={classes.gallery}>
+              <Gallery
+                defaultSlide={defaultSlide}
+                tttClicked={tttClicked}
+                notingClicked={notingClicked}
+                pokeBattlesClicked={pokeBattlesClicked}
+                voyageClicked={voyageClicked}
+              ></Gallery>
+            </div>
 
-          <div className={classes.projectIcons}>
-            <ProjectIcons
-              setDefaultSlide={setDefaultSlide}
-              setTttClicked={setTttClicked}
-              setNotingClicked={setNotingClicked}
-              setPokeBattlesClicked={setPokeBattlesClicked}
-              setVoyageClicked={setVoyageClicked}
-            ></ProjectIcons>
+            <div className={classes.projectIcons}>
+              <ProjectIcons
+                setDefaultSlide={setDefaultSlide}
+                setTttClicked={setTttClicked}
+                setNotingClicked={setNotingClicked}
+                setPokeBattlesClicked={setPokeBattlesClicked}
+                setVoyageClicked={setVoyageClicked}
+              ></ProjectIcons>
+            </div>
           </div>
         </div>
       </div>
