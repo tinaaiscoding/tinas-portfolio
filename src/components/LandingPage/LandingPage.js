@@ -148,7 +148,7 @@ const LandingPage = () => {
         />
       )}
 
-      <TilesBg />
+      <TilesBg className='' />
     </div>
   );
 };

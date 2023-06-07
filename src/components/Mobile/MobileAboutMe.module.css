@@ -1,0 +1,65 @@
+#mobileAboutMe {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
+  border: 2px solid #46467a;
+  border-radius: 10px;
+  padding: 30px;
+  padding-left: 60px;
+  width: 500px;
+  margin: 90px auto 0;
+}
+
+#mobileAboutMe h2 {
+  font-size: 4.5rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#mobileAboutMe h3 {
+  font-size: 2.5rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+.button74 {
+  background-color: #7766c6;
+  border: 2px solid #46467a;
+  border-radius: 30px;
+  box-shadow: #46467a 4px 4px 0 0;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button74:hover {
+  background-color: #cec5f5;
+  color: #46467a;
+}
+
+.button74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

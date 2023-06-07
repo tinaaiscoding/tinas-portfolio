@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import classes from './TilesBg.module.css';
 
-const TilesBg = () => {
+const TilesBg = (props) => {
   const size = document.body.clientWidth > 800 ? 100 : 50;
   const [columns, setColumns] = useState(14);
   const [rows, setRows] = useState(7);
@@ -20,7 +20,7 @@ const TilesBg = () => {
   };
 
   return (
-    <div id={classes.tiles}style={gridTemplate}>
+    <div id={classes.tiles} className={`${classes.tilesHeight} ${props.className}`} style={gridTemplate}>
       {Array.from(Array(columns * rows)).map((tile, index) => {
         return (<div key={index} className={classes.tile}></div>)
       })}
