@@ -5,28 +5,40 @@ import classes from './TilesBg.module.css';
 const TilesBg = (props) => {
   const [columns, setColumns] = useState(10);
   const [rows, setRows] = useState(10);
-  let size = 0;
-
-  useEffect(() => {
-    changeTileSize()
-  }, [])
+  const [size, setSize] = useState(50);
+  const docWidth = document.body.clientWidth;
 
   const changeTileSize = () => {
-    if (document.body.clientWidth > 1000) {
-      size = 100;
+    if (docWidth < 600) {
+      setSize(50);
+      setColumns(8);
+      setRows(8);
+    } else if (docWidth > 600 && docWidth < 900) {
+      setSize(50);
+      setColumns(10);
+      setRows(8);
+    } else if (docWidth >= 900 && docWidth <= 1224) {
+      setSize(50);
+      setColumns(12);
+      setRows(7);
+    } else if (docWidth >= 1224 && docWidth <= 1500) {
+      setSize(100);
       setColumns(14);
       setRows(7);
-    } else if (document.body.clientWidth <= 1000) {
-      size = 50;
-      setColumns(8);
-      setRows(10);
-    }
+    } else if (docWidth > 1500) {
+      setSize(100);
+      setColumns(17);
+      setRows(9);
+    } 
   };
 
-  // const size = document.body.clientWidth > 800 ? 100 : 50;
+  useEffect(() => {
+    changeTileSize();
+  });
+
 
   const createGrid = () => {
-    setColumns(Math.floor(document.body.clientWidth / size));
+    setColumns(Math.floor(docWidth / size));
     setRows(Math.floor(document.body.clientHeight / size));
   };
 
@@ -39,9 +51,6 @@ const TilesBg = (props) => {
     gridTemplateColumns: `repeat(${columns}, 1fr)`,
     gridTemplateRows: `repeat(${rows}, 1fr)`,
   };
-
-  console.log(columns);
-  console.log(rows)
 
   return (
     <div
