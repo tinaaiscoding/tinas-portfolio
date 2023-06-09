@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import MobileCard from '../../UI/MobileCard';
 
 import classes from './MobileAboutMe.module.css';
@@ -12,7 +13,8 @@ const MobileAboutMe = () => {
         <h2>I'm Tina!</h2>
       </MobileCard>
       
-      <button className={classes.button74}>SAY HI BACK</button>
+      <a href="#" className={classes.button74}>SAY HI BACK</a>
+
 
     </div>
   );
