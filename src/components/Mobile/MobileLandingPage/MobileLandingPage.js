@@ -8,6 +8,8 @@ import MobileAboutMe from './MobileAboutMe';
 import MobileSummary from './MobileSummary';
 import MobileGallery from './MobileGallery';
 import MobileSkills from './MobileSkills';
+import MobileContact from './MobileContact';
+import MobileFooter from './MobileFooter';
 
 const MobileLandingPage = () => {
 
@@ -21,6 +23,8 @@ const MobileLandingPage = () => {
       <MobileSummary padding={classes.padding}/>
       <MobileGallery padding={classes.padding}/>
       <MobileSkills padding={classes.padding}/>
+      <MobileContact padding={classes.padding}/>
+      <MobileFooter padding={classes.padding}/>
     </div>
   );
 };
