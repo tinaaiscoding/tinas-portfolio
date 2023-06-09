@@ -4,7 +4,7 @@ import MediaQuery from 'react-responsive';
 import './App.css';
 
 import LandingPage from './components/LandingPage/LandingPage';
-import MobileLandingPage from './components/Mobile/MobileLandingPage';
+import MobileLandingPage from './components/Mobile/MobileLandingPage/MobileLandingPage';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <LandingPage />
       </MediaQuery>
 
-      <MediaQuery minWidth={200}>
+      <MediaQuery maxWidth={1223}>
         <MobileLandingPage />
       </MediaQuery>
     </div>

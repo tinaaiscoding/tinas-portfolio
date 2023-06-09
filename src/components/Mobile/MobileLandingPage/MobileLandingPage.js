@@ -2,26 +2,23 @@ import React, { useState } from 'react';
 
 import classes from './MobileLandingPage.module.css';
 
-import TilesBg from '../UI/TilesBg';
+import TilesBg from '../../UI/TilesBg';
+import MobileNavMenu from '../MobileNavMenu';
 import MobileAboutMe from './MobileAboutMe';
-import MobileNavMenu from './MobileNavMenu';
-// import ContactMeFormMobile from '../LandingPage/DesktopIconsntactMeForm/ContactMeForm';
-// import ProjectsMobile from '../ProjectsDir/ProjectsDir';
-// import CreditsMobile from '../LandingPage/Credits';
+import MobileSummary from './MobileSummary';
+import MobileGallery from './MobileGallery';
 
 const MobileLandingPage = () => {
 
   return (
     <div id={classes.mobileLandingPage}>
       <MobileNavMenu />
-    <div>
+ 
       <MobileAboutMe />
       <TilesBg className={classes.bg} />
-    </div>
 
-    <div>
-      <h2>test</h2>
-    </div>
+      <MobileSummary />
+      <MobileGallery />
     </div>
   );
 };

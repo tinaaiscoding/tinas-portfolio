@@ -44,10 +44,14 @@
   background-color: #e7e4f6;
 }
 
-
 .mobileNavItems span:hover {
   background-color: #f5f3ffc8;
   border-radius: 100%;
 }
 
-
+.backdrop {
+  position: absolute;
+  background-color: rgba(74, 74, 74, 0.651);
+  height: 100vh;
+  width: 100vw;
+}

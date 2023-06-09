@@ -15,7 +15,7 @@ const MobileNavMenu = () => {
 
   return (
     <div id={classes.mobileNavMenu}>
-      {menuActive && (
+      {menuActive ? (
         <div className={classes.mobileNavItems}>
           <ul>
             <li className={classes.crossIcon}>
@@ -26,16 +26,27 @@ const MobileNavMenu = () => {
                 close
               </span>
             </li>
-            <li><span className={classes.listText}> ABOUT ME</span></li>
-            <li><span className={classes.listText}>PROJECTS</span></li>
-            <li><span className={classes.listText}>RESUME</span></li>
-            <li><span className={classes.listText}>CONTACT ME</span></li>
+            <li>
+              <span className={classes.listText}> ABOUT ME</span>
+            </li>
+            <li>
+              <span className={classes.listText}>PROJECTS</span>
+            </li>
+            <li>
+              <span className={classes.listText}>RESUME</span>
+            </li>
+            <li>
+              <span className={classes.listText}>CONTACT ME</span>
+            </li>
+            {/* <li>
+              <span className={classes.listText}>CREDITS</span>
+            </li> */}
           </ul>
-        </div>
-      )}
 
-      <div className={classes.menuIcon}>
-        {!menuActive && (
+          <div className={classes.backdrop}></div>
+        </div>
+      ) : (
+        <div className={classes.menuIcon}>
           <p>
             <span
               onClick={activateMenuHandler}
@@ -44,8 +55,8 @@ const MobileNavMenu = () => {
               menu
             </span>
           </p>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };

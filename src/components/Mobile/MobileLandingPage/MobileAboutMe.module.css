@@ -5,13 +5,12 @@
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
   border: 2px solid #46467a;
   border-radius: 10px;
-  padding: 30px;
-  padding-left: 60px;
-  width: 500px;
+  padding: 30px 60px;
+  width: 515px;
   margin: 90px auto 0;
 }
 
@@ -63,3 +62,26 @@
     padding: 0 25px;
   }
 }
+
+.arrowIcon {
+  margin: 0 auto;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 500px)  {
+  .header {
+    width: 90%;
+  }
+
+  #mobileAboutMe h2 {
+    font-size: 3.75rem;
+  }
+  
+  #mobileAboutMe h3 {
+    font-size: 1.75rem;
+  }
+}
+  

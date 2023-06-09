@@ -1,0 +1,12 @@
+#mobileSummary {
+  background-color: #9c9cb7;
+  color: white;
+  /* color: #46467a; */
+  font-family: 'Roboto Mono', monospace;
+}
+
+#mobileSummary .summaryText {
+  font-size: 1rem;
+  line-height: 32px;
+  padding: 70px;
+}

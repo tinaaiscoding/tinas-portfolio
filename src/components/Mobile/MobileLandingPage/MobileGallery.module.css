@@ -1,0 +1,13 @@
+#mobileGallery {
+  background-color: #fff5f8;
+}
+
+.gallery {
+  text-align: center;
+  padding: 70px;
+}
+
+.gallery img {
+  margin-bottom: 15px;
+  width: 100%;
+}
