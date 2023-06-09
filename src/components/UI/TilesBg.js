@@ -36,7 +36,6 @@ const TilesBg = (props) => {
     changeTileSize();
   });
 
-
   const createGrid = () => {
     setColumns(Math.floor(docWidth / size));
     setRows(Math.floor(document.body.clientHeight / size));

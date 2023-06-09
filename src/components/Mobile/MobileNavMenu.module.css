@@ -1,0 +1,22 @@
+#mobileNavMenu {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.menuIcon {
+  text-align: right;
+  padding: 8px;
+  padding-right: 10px;
+  transition: all 1s;
+}
+
+.menuIcon span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #46467a71;
+}
+
+.menuIcon span:hover {
+  color: #7766c6;
+}

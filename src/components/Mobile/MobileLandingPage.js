@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import classes from './MobileLandingPage.module.css';
 
 import TilesBg from '../UI/TilesBg';
-import AboutMeMobile from './MobileAboutMe';
+import MobileAboutMe from './MobileAboutMe';
+import MobileNavMenu from './MobileNavMenu';
 // import ContactMeFormMobile from '../LandingPage/DesktopIconsntactMeForm/ContactMeForm';
 // import ProjectsMobile from '../ProjectsDir/ProjectsDir';
 // import CreditsMobile from '../LandingPage/Credits';
@@ -12,8 +13,9 @@ const MobileLandingPage = () => {
 
   return (
     <div id={classes.mobileLandingPage}>
+      <MobileNavMenu />
     <div>
-      <AboutMeMobile />
+      <MobileAboutMe />
       <TilesBg className={classes.bg} />
     </div>
 
