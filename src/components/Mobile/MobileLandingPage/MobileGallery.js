@@ -15,10 +15,10 @@ import voyage1 from '../../../images/projectScreenshots/voyage/voyage1.png';
 import voyage3 from '../../../images/projectScreenshots/voyage/voyage3.png';
 import voyage7 from '../../../images/projectScreenshots/voyage/voyage7.png';
 
-const MobileGallery = () => {
+const MobileGallery = (props) => {
   return (
     <div id={classes.mobileGallery}>
-      <div className={classes.gallery}>
+      <div className={`${classes.gallery} ${props.padding}`}>
         <Swiper
           navigation={true}
           pagination={true}

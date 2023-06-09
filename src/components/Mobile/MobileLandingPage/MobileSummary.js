@@ -2,10 +2,10 @@ import React from 'react';
 
 import classes from './MobileSummary.module.css';
 
-const MobileSummary = () => {
+const MobileSummary = (props) => {
   return (
     <div id={classes.mobileSummary}>
-      <div className={classes.summaryText}>
+      <div className={`${classes.summaryText} ${props.padding}`}>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

@@ -4,3 +4,16 @@
 .bg {
   height: 500px;
 }
+
+.padding {
+  padding: 70px;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .padding {
+    padding: 55px 26px;
+  }
+}

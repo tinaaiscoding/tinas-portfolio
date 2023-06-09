@@ -17,8 +17,8 @@ const MobileLandingPage = () => {
       <MobileAboutMe />
       <TilesBg className={classes.bg} />
 
-      <MobileSummary />
-      <MobileGallery />
+      <MobileSummary padding={classes.padding}/>
+      <MobileGallery padding={classes.padding}/>
     </div>
   );
 };
