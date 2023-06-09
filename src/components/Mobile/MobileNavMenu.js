@@ -15,17 +15,27 @@ const MobileNavMenu = () => {
 
   return (
     <div id={classes.mobileNavMenu}>
+      {menuActive && (
+        <div className={classes.mobileNavItems}>
+          <ul>
+            <li className={classes.crossIcon}>
+              <span
+                onClick={deactivateMenuHandler}
+                className={`material-symbols-outlined`}
+              >
+                close
+              </span>
+            </li>
+            <li><span className={classes.listText}> ABOUT ME</span></li>
+            <li><span className={classes.listText}>PROJECTS</span></li>
+            <li><span className={classes.listText}>RESUME</span></li>
+            <li><span className={classes.listText}>CONTACT ME</span></li>
+          </ul>
+        </div>
+      )}
+
       <div className={classes.menuIcon}>
-        {menuActive ? (
-          <p>
-            <span
-              onClick={deactivateMenuHandler}
-              class="material-symbols-outlined"
-            >
-              close
-            </span>
-          </p>
-        ) : (
+        {!menuActive && (
           <p>
             <span
               onClick={activateMenuHandler}
