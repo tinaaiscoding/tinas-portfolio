@@ -11,3 +11,12 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-y: scroll;
 }
+
+h3 {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #e0dffd7e;
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+}

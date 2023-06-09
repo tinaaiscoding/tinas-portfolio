@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import classes from './MobileLandingPage.module.css';
 
@@ -7,6 +7,7 @@ import MobileNavMenu from '../MobileNavMenu';
 import MobileAboutMe from './MobileAboutMe';
 import MobileSummary from './MobileSummary';
 import MobileGallery from './MobileGallery';
+import MobileSkills from './MobileSkills';
 
 const MobileLandingPage = () => {
 
@@ -19,6 +20,7 @@ const MobileLandingPage = () => {
 
       <MobileSummary padding={classes.padding}/>
       <MobileGallery padding={classes.padding}/>
+      <MobileSkills padding={classes.padding}/>
     </div>
   );
 };

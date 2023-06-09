@@ -19,6 +19,7 @@ const MobileGallery = (props) => {
   return (
     <div id={classes.mobileGallery}>
       <div className={`${classes.gallery} ${props.padding}`}>
+        <h3>PROJECT GALLERY</h3>
         <Swiper
           navigation={true}
           pagination={true}

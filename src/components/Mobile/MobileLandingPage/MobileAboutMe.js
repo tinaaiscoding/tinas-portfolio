@@ -6,7 +6,7 @@ const MobileAboutMe = () => {
   return (
     <div id={classes.mobileAboutMe}>
       <div className={classes.header}>
-        <h3>Hi,</h3>
+        <h4>Hi,</h4>
         <h2>I'm Tina!</h2>
       </div>
       
