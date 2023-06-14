@@ -1,10 +1,20 @@
 #mobileSkills {
   background-color: #9c9cb7;
+  transition: 2s;
 }
 
 
 #mobileSkills .skill {
-  width: fit-content;
+  /* height: 250px; */
+  width: 100%;
   margin: 25px 0;
 }
 
+
+
+@media only screen and (max-width: 499px) {
+  #mobileSkills {
+    /* padding: ; */
+  }
+   
+}

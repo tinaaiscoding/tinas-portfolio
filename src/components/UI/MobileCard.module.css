@@ -5,3 +5,10 @@
   border-radius: 10px;
   padding: 30px 60px;
 }
+
+
+@media only screen and (max-width: 499px) {
+  #mobileCard  {
+    padding: 20px 25px;
+  } 
+}

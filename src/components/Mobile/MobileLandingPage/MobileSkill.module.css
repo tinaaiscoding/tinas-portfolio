@@ -1,3 +1,8 @@
+#mobileSkill .skillText {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
 /***************************************************/
 /****************** MEDIA QUERIES ******************/
 @media only screen and (min-width: 500px) and (max-width: 1223px) {
@@ -5,14 +10,17 @@
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     grid-template-rows: 1fr;
+align-items: center;
   }
 
   #mobileSkill .skillImg {
     grid-area: 1 / 1 / 2 / 2;
+    padding-right: 20px
   }
 
   #mobileSkill .skillText {
     grid-area: 1 / 2 / 2 / 3;
+    padding-left: 20px;
   }
 }
 
