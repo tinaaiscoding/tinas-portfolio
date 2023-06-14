@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import classes from './MobileSummary.module.css';
 
@@ -7,13 +8,14 @@ const MobileSummary = (props) => {
     <div id={classes.mobileSummary}>
       <div className={`${classes.summaryText} ${props.padding}`}>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
+        "I aspire to create beautiful and fun designs that are both aesthetically pleasing and functional. 
         </p>
+        <p>I hope we can work together to smash goals and build amazing websites."
+        </p>
+        
+        <Link to="/aboutme" className={classes.link}>LEARN MORE</Link>
       </div>
+
     </div>
   );
 };

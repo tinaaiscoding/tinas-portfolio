@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import classes from './MobileNavMenu.module.css';
 
@@ -27,19 +28,19 @@ const MobileNavMenu = () => {
               </span>
             </li>
             <li>
-              <span className={classes.listText}> ABOUT ME</span>
+            <Link to="/aboutme" className={classes.listText}>ABOUT ME</Link>
             </li>
             <li>
-              <span className={classes.listText}>PROJECTS</span>
+               <Link to="/projects"  className={classes.listText}>PROJECTS</Link>
             </li>
             <li>
-              <span className={classes.listText}>RESUME</span>
+               <Link to="#"  className={classes.listText}>RESUME</Link>
             </li>
             <li>
-              <span className={classes.listText}>CONTACT ME</span>
+               <Link to="/contactme"  className={classes.listText}>CONTACT ME</Link>
             </li>
             {/* <li>
-              <span className={classes.listText}>CREDITS</span>
+               <Link to="/credits"  className={classes.listText}>CREDITS</Link>
             </li> */}
           </ul>
 
