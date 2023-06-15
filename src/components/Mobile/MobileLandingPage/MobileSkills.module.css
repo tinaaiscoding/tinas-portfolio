@@ -7,3 +7,12 @@
   width: 100%;
   margin: 25px 0;
 }
+
+#mobileSkills ul {
+  padding-left: 0;
+}
+
+#mobileSkills li {
+  list-style-type: none;
+  padding: 2px 0;
+}
