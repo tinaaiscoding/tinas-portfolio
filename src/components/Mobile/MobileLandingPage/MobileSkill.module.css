@@ -10,12 +10,12 @@
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     grid-template-rows: 1fr;
-align-items: center;
+    align-items: center;
   }
 
   #mobileSkill .skillImg {
     grid-area: 1 / 1 / 2 / 2;
-    padding-right: 20px
+    padding-right: 20px;
   }
 
   #mobileSkill .skillText {

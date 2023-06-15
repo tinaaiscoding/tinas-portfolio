@@ -14,36 +14,36 @@ import fix from '../../../images/icons/fix.png';
 const MobileSkills = (props) => {
   const [codeClicked, setCodeClicked] = useState(false);
 
+  const codeText = ` The websites I create are built with a variety of tech
+  including, but not limited to, HTML, CSS, Javascript, React,
+  Ruby, Express. The websites incorporate responsive designs and
+  can include databases. To create and manage databases, I've
+  worked with PostgreSQL, cloud-based Firebase and Supabase.`
+
+
+
   const codeClickHandler = () => {
-    if (!codeClicked) {
-      setCodeClicked(true);
-    } else {
-      setCodeClicked(false);
-    }
-    console.log(codeClicked);
+    setCodeClicked((current) => !current);
+  
   };
 
   return (
     <div id={classes.mobileSkills}>
       <div className={props.padding}>
-        <MobileCard className={classes.skill} onClick={codeClickHandler}>
+        <MobileCard className={classes.skill} onClick={codeClickHandler} text={codeText} in={codeClicked}>
           <MobileSkill imgName={'code'} img={code}>
-            {codeClicked ? (
+            {/* {codeClicked ? (
               <p className={classes.skillText}>
-                The websites I create are built with a variety of tech
-                including, but not limited to, HTML, CSS, Javascript, React,
-                Ruby, Express. The websites incorporate responsive designs and
-                can include databases. To create and manage databases, I've
-                worked with PostgreSQL, cloud-based Firebase and Supabase.
+               
               </p>
-            ) : (
+            ) : ( */}
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JAVASCRIPT</li>
                 <li>REACT</li>
               </ul>
-            )}
+            {/* )} */}
           </MobileSkill>
         </MobileCard>
 
