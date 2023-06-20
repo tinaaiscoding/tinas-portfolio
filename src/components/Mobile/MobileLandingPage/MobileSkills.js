@@ -52,14 +52,15 @@ const MobileSkills = (props) => {
         >
           <ul>
             <li>HTML</li>
-            <li>CSS</li>
+            <li>CSS/SASS</li>
             <li>JAVASCRIPT</li>
             <li>REACT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
+            <li>NODE.JS</li>
+            <li>RUBY</li>
+            <li>RAILS</li>
+            <li>EXPRESS</li>
+            <li>POSTGRESQL</li>
+            <li>FIREBASE</li>
           </ul>
         </SkillAccordian>
 
@@ -69,17 +70,12 @@ const MobileSkills = (props) => {
           img={communication}
           text={commText}
         >
-          {' '}
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
+            <li>EXCELLECT VERBAL & WRITTEN SKILLS</li>
+            <li>EMPATHETIC</li>
+            <li>SET CLEAR GOALS</li>
+            <li>ALWAYS UNDERSTANDING</li>
+            <li>TEAM WORK</li>
           </ul>
         </SkillAccordian>
 
@@ -89,17 +85,13 @@ const MobileSkills = (props) => {
           img={design}
           text={designText}
         >
-          {' '}
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
+            <li>FIGMA</li>
+            <li>TRELLO</li>
+            <li>WIREFRAMES</li>
+            <li>TRENDY DESIGNS</li>
+            <li>MOOD BOARDS</li>
+            <li>DESIGN REVIEWS</li>
           </ul>
         </SkillAccordian>
 
@@ -109,32 +101,19 @@ const MobileSkills = (props) => {
           img={study}
           text={studyText}
         >
-          {' '}
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
+            <li>CONSTANLY LEARNING</li>
+            <li>TRENDING TECH</li>
+            <li>CURIOUS NATURE</li>
           </ul>
         </SkillAccordian>
 
         <SkillAccordian heading="Code" imgName={'fix'} img={fix} text={fixText}>
-          {' '}
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>HTML</li>
+            <li>LOGICAL REASONING</li>
+            <li>PROBLEM SOLVING</li>
+            <li>RESEARCH</li>
+            <li>CREATIVITY</li>
           </ul>
         </SkillAccordian>
       </div>

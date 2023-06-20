@@ -1,3 +1,18 @@
 #mobileFooter {
   background-color: #9c9cb7;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#mobileFooter .icons {
+  padding-top: 30px;
+}
+
+#mobileFooter img {
+  width: 35px;
+  margin: 10px;
+}
+
+#mobileFooter p {
+  font-size: 0.8rem;
 }
