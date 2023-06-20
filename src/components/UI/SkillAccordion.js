@@ -4,14 +4,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import classes from './SkillAccordian.module.css';
+import classes from './SkillAccordion.module.css';
 
-const SkillAccordian = (props) => {
+const SkillAccordion = (props) => {
   return (
-    <div id={classes.accordianDiv}>
+    <div id={classes.accordionDiv}>
       <Accordion className={classes.accordion}>
         <AccordionSummary
-          className={classes.accordianSummary}
+          className={classes.accordionSummary}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
@@ -30,4 +30,4 @@ const SkillAccordian = (props) => {
   );
 };
 
-export default SkillAccordian;
+export default SkillAccordion;

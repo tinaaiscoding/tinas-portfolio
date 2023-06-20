@@ -73,13 +73,13 @@
 /****************** MEDIA QUERIES ******************/
 
 /* Mobile */
-@media only screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
   .header {
     width: 90%;
   }
 
   #mobileAboutMe h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   #mobileAboutMe h4 {

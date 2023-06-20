@@ -1,52 +1,52 @@
-#accordianDiv .accordion {
+#accordionDiv .accordion {
   margin: 20px auto;
   padding: 15px 40px;
   color: #46467a;
 }
 
-#accordianDiv .summaryContent {
+#accordionDiv .summaryContent {
   display: flex;
   width: 100%;
 }
 
-#accordianDiv .summaryList {
+#accordionDiv .summaryList {
   column-count: 2;
   column-gap: 70px;
   padding: 15px 25px 15px 60px;
   width: 100%;
 }
 
-#accordianDiv .details {
+#accordionDiv .details {
   margin-top: 10px;
   letter-spacing: 0.5px;
 }
 
-#accordianDiv img {
+#accordionDiv img {
   align-self: center;
 }
 
 @media only screen and (max-width: 640px)  {
-  #accordianDiv .summaryList {
+  #accordionDiv .summaryList {
     padding-left: 30px;
   }
 }
 
 @media only screen and (max-width: 499px)  {
-  #accordianDiv .accordianSummary {
+  #accordionDiv .accordionSummary {
     flex-direction: column;
   }
 
-  #accordianDiv .summaryContent {
+  #accordionDiv .summaryContent {
     flex-direction: column;
   }
   
-  #accordianDiv img {
+  #accordionDiv img {
     width: 60px;
     margin-bottom: 5px;
     align-self: center;
   }
 
-  #accordianDiv .summaryContent {
+  #accordionDiv .summaryContent {
     display: flex;
     flex-direction: column;
   }

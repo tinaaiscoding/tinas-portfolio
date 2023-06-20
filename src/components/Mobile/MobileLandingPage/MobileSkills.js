@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillAccordian from '../../UI/SkillAccordian';
+import SkillAccordion from '../../UI/SkillAccordion';
 
 import classes from './MobileSkills.module.css';
 
@@ -44,7 +44,7 @@ const MobileSkills = (props) => {
   return (
     <div id={classes.mobileSkills}>
       <div className={props.padding}>
-        <SkillAccordian
+        <SkillAccordion
           heading="Code"
           imgName={'code'}
           img={code}
@@ -62,9 +62,9 @@ const MobileSkills = (props) => {
             <li>POSTGRESQL</li>
             <li>FIREBASE</li>
           </ul>
-        </SkillAccordian>
+        </SkillAccordion>
 
-        <SkillAccordian
+        <SkillAccordion
           heading="Code"
           imgName={'communication'}
           img={communication}
@@ -77,9 +77,9 @@ const MobileSkills = (props) => {
             <li>ALWAYS UNDERSTAND</li>
             <li>TEAM WORK</li>
           </ul>
-        </SkillAccordian>
+        </SkillAccordion>
 
-        <SkillAccordian
+        <SkillAccordion
           heading="Code"
           imgName={'design'}
           img={design}
@@ -93,9 +93,9 @@ const MobileSkills = (props) => {
             <li>MOOD BOARDS</li>
             <li>DESIGN REVIEWS</li>
           </ul>
-        </SkillAccordian>
+        </SkillAccordion>
 
-        <SkillAccordian
+        <SkillAccordion
           heading="Code"
           imgName={'study'}
           img={study}
@@ -106,16 +106,16 @@ const MobileSkills = (props) => {
             <li>TRENDING TECH</li>
             <li>CURIOUS NATURE</li>
           </ul>
-        </SkillAccordian>
+        </SkillAccordion>
 
-        <SkillAccordian heading="Code" imgName={'fix'} img={fix} text={fixText}>
+        <SkillAccordion heading="Code" imgName={'fix'} img={fix} text={fixText}>
           <ul>
             <li>LOGICAL REASONING</li>
             <li>PROBLEM SOLVING</li>
             <li>RESEARCH</li>
             <li>CREATIVITY</li>
           </ul>
-        </SkillAccordian>
+        </SkillAccordion>
       </div>
     </div>
   );
