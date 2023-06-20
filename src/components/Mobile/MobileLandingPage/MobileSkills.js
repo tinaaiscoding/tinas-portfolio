@@ -71,10 +71,10 @@ const MobileSkills = (props) => {
           text={commText}
         >
           <ul>
-            <li>EXCELLECT VERBAL & WRITTEN SKILLS</li>
+            <li>EXCELLECT VERBAL & WRITTEN</li>
             <li>EMPATHETIC</li>
             <li>SET CLEAR GOALS</li>
-            <li>ALWAYS UNDERSTANDING</li>
+            <li>ALWAYS UNDERSTAND</li>
             <li>TEAM WORK</li>
           </ul>
         </SkillAccordian>

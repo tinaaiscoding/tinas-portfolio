@@ -8,17 +8,19 @@ import classes from './SkillAccordian.module.css';
 
 const SkillAccordian = (props) => {
   return (
-    <div id={classes.accordian}>
+    <div id={classes.accordianDiv}>
       <Accordion className={classes.accordion}>
         <AccordionSummary
-          className={classes.Summary}
+          className={classes.accordianSummary}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <img src={props.img} alt={props.imgName} />
-          {/* <h3>{props.heading}</h3> */}
-          <div className={classes.summary}>{props.children}</div>
+          <div className={classes.summaryContent}>
+            <img src={props.img} alt={props.imgName} />
+            {/* <h3>{props.heading}</h3> */}
+            <div className={classes.summaryList}>{props.children}</div>
+          </div>
         </AccordionSummary>
         <AccordionDetails className={classes.details}>
           <p>{props.text}</p>

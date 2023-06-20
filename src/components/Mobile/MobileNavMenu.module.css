@@ -24,7 +24,7 @@
 .mobileNavItems li {
   font-family: 'Roboto', sans-serif;
   color: #46467a;
-
+  width: 100%;
   list-style-type: none;
   margin-left: 0;
   letter-spacing: 1.5px;

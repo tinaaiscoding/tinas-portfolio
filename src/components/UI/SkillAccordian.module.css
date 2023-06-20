@@ -1,21 +1,53 @@
-#accordian .accordion {
+#accordianDiv .accordion {
   margin: 20px auto;
   padding: 15px 40px;
   color: #46467a;
 }
 
-#accordian .summary {
+#accordianDiv .summaryContent {
+  display: flex;
+  width: 100%;
+}
+
+#accordianDiv .summaryList {
   column-count: 2;
   column-gap: 70px;
   padding: 15px 25px 15px 60px;
+  width: 100%;
 }
 
-#accordian .details {
+#accordianDiv .details {
   margin-top: 10px;
   letter-spacing: 0.5px;
 }
 
-#accordian img {
-  height: 100%;
+#accordianDiv img {
   align-self: center;
+}
+
+@media only screen and (max-width: 640px)  {
+  #accordianDiv .summaryList {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 499px)  {
+  #accordianDiv .accordianSummary {
+    flex-direction: column;
+  }
+
+  #accordianDiv .summaryContent {
+    flex-direction: column;
+  }
+  
+  #accordianDiv img {
+    width: 60px;
+    margin-bottom: 5px;
+    align-self: center;
+  }
+
+  #accordianDiv .summaryContent {
+    display: flex;
+    flex-direction: column;
+  }
 }
