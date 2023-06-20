@@ -10,7 +10,7 @@ const MobileSummary = (props) => {
         <p>
         "I aspire to create beautiful and fun designs that are both aesthetically pleasing and functional. 
         </p>
-        <p>I hope we can work together to smash goals and build amazing websites."
+        <p>I hope we can work together to smash goals and build amazing applications."
         </p>
         
         <Link to="/aboutme" className={classes.link}>LEARN MORE</Link>

@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-
-import MobileCard from '../../UI/MobileCard';
-import MobileSkill from './MobileSkill';
+import React from 'react';
+import SkillAccordian from '../../UI/SkillAccordian';
 
 import classes from './MobileSkills.module.css';
 
@@ -12,12 +10,6 @@ import study from '../../../images/icons/study.png';
 import fix from '../../../images/icons/fix.png';
 
 const MobileSkills = (props) => {
-  const [codeClicked, setCodeClicked] = useState(false);
-  const [commClicked, setCommClicked] = useState(false);
-  const [designClicked, setDesignClicked] = useState(false);
-  const [studyClicked, setStudyClicked] = useState(false);
-  const [fixClicked, setFixClicked] = useState(false);
-
   const codeText = ` The websites I create are built with a variety of tech
   including, but not limited to, HTML, CSS, Javascript, React,
   Ruby, Express. The websites incorporate responsive designs and
@@ -49,83 +41,102 @@ const MobileSkills = (props) => {
   approaches, and find creative ways to address user experience or
   visual challenges.`;
 
-  const codeClickHandler = () => {
-    setCodeClicked((current) => !current);
-  };
-
-  const commClickHandler = () => {
-    setCommClicked((current) => !current);
-  };
-
-  const designlickHandler = () => {
-    setDesignClicked((current) => !current);
-  };
-
-  const studyClickHandler = () => {
-    setStudyClicked((current) => !current);
-  };
-
-  const fixClickHandler = () => {
-    setFixClicked((current) => !current);
-  };
-
   return (
     <div id={classes.mobileSkills}>
       <div className={props.padding}>
-        <MobileCard
-          className={classes.skill}
-          onClick={codeClickHandler}
+        <SkillAccordian
+          heading="Code"
+          imgName={'code'}
+          img={code}
           text={codeText}
-          in={codeClicked}
         >
-          <MobileSkill imgName={'code'} img={code}>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JAVASCRIPT</li>
-              <li>REACT</li>
-            </ul>
-          </MobileSkill>
-        </MobileCard>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+          </ul>
+        </SkillAccordian>
 
-        <MobileCard
-          className={classes.skill}
-          onClick={commClickHandler}
+        <SkillAccordian
+          heading="Code"
+          imgName={'communication'}
+          img={communication}
           text={commText}
-          in={commClicked}
         >
-          <MobileSkill
-            imgName={'communication'}
-            img={communication}
-          ></MobileSkill>
-        </MobileCard>
+          {' '}
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+          </ul>
+        </SkillAccordian>
 
-        <MobileCard
-          className={classes.skill}
-          onClick={designlickHandler}
+        <SkillAccordian
+          heading="Code"
+          imgName={'design'}
+          img={design}
           text={designText}
-          in={designClicked}
         >
-          <MobileSkill imgName={'design'} img={design}></MobileSkill>
-        </MobileCard>
+          {' '}
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+          </ul>
+        </SkillAccordian>
 
-        <MobileCard
-          className={classes.skill}
-          onClick={studyClickHandler}
+        <SkillAccordian
+          heading="Code"
+          imgName={'study'}
+          img={study}
           text={studyText}
-          in={studyClicked}
         >
-          <MobileSkill imgName={'study'} img={study}></MobileSkill>
-        </MobileCard>
+          {' '}
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+          </ul>
+        </SkillAccordian>
 
-        <MobileCard
-          className={classes.skill}
-          onClick={fixClickHandler}
-          text={fixText}
-          in={fixClicked}
-        >
-          <MobileSkill imgName={'fix'} img={fix}></MobileSkill>
-        </MobileCard>
+        <SkillAccordian heading="Code" imgName={'fix'} img={fix} text={fixText}>
+          {' '}
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>HTML</li>
+          </ul>
+        </SkillAccordian>
       </div>
     </div>
   );

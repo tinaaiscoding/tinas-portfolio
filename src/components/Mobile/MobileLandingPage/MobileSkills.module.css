@@ -8,11 +8,10 @@
   margin: 25px 0;
 }
 
-#mobileSkills ul {
-  padding-left: 0;
-}
-
 #mobileSkills li {
   list-style-type: none;
-  padding: 2px 0;
+  padding: 2px 10px;
+  color: #46467a;
+  font-family: 'Roboto Mono', monospace;
 }
+

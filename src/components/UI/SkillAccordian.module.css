@@ -1,0 +1,11 @@
+#accordian .accordion {
+  margin: 20px auto;
+  padding: 15px 40px;
+}
+
+#accordian .summary {
+  column-count: 3;
+  column-gap: 60px;
+  margin: auto;
+  padding: 15px 10px;
+}

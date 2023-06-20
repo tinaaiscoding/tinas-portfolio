@@ -3,24 +3,11 @@
   box-shadow: 10px 10px 1px 0px rgb(0 0 0 / 26%);
   border: 2px solid #46467a;
   border-radius: 10px;
-}
-
-#mobileCard .initText {
   padding: 30px 60px;
-}
-
-#mobileCard .overlay {
-  background-color: #46467a;
-  border-radius: 6px;
-  padding: 30px 60px;
-}
-
-#mobileCard .overlay p {
-  color: white;
 }
 
 @media only screen and (max-width: 499px) {
-  #mobileCard .initText {
+  #mobileCard {
     padding: 20px 25px;
   }
 }
