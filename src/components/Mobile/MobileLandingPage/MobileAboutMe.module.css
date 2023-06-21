@@ -25,37 +25,12 @@
   font-weight: 300;
 }
 
-.button74 {
-  background-color: #7766c6;
-  border: 2px solid #46467a;
-  border-radius: 30px;
-  box-shadow: #46467a 4px 4px 0 0;
-  color: white;
-  cursor: pointer;
-  display: block;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 40px auto;
-  padding: 0 20px;
-  letter-spacing: 2px;
-  line-height: 40px;
-  text-align: center;
+#mobileAboutMe a {
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
 }
 
-.button74:hover {
-  background-color: #cec5f5;
-  color: #46467a;
-}
-
-.button74:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
+#mobileAboutMe .button {
+  margin-top: 35px;
 }
 
 @media (min-width: 768px) {

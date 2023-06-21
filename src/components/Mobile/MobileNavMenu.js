@@ -34,14 +34,11 @@ const MobileNavMenu = () => {
                <Link to="/projects"  className={classes.listText}>PROJECTS</Link>
             </li>
             <li>
-               <Link to="#"  className={classes.listText}>RESUME</Link>
-            </li>
-            <li>
                <Link to="/contactme"  className={classes.listText}>CONTACT ME</Link>
             </li>
-            {/* <li>
+            <li>
                <Link to="/credits"  className={classes.listText}>CREDITS</Link>
-            </li> */}
+            </li>
           </ul>
 
           <div className={classes.backdrop}></div>

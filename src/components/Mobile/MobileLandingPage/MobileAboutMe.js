@@ -1,7 +1,7 @@
 import React from 'react';
-
-
+import { HashLink } from 'react-router-hash-link';
 import MobileCard from '../../UI/MobileCard';
+import Button from '../../UI/Button';
 
 import classes from './MobileAboutMe.module.css';
 
@@ -13,7 +13,8 @@ const MobileAboutMe = () => {
         <h2>I'm Tina!</h2>
       </MobileCard>
       
-      <a href="#" className={classes.button74}>SAY HI BACK</a>
+      <HashLink smooth to="/#contact"><Button className={classes.button} buttonName='SAY HI BACK'></Button></HashLink>
+  
 
 
     </div>
