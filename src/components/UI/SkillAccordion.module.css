@@ -19,6 +19,8 @@
 #accordionDiv .details {
   margin-top: 10px;
   letter-spacing: 0.5px;
+  line-height: 30px;
+  font-size: 1.1rem;
 }
 
 #accordionDiv img {

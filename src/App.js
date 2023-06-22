@@ -16,6 +16,9 @@ function App() {
       <MediaQuery minWidth={1224}>
         <Routes>
           <Route path="/" element={<LandingPage />}></Route>
+          <Route path="/aboutme" element={<LandingPage />}></Route>
+          <Route path="/projects" element={<LandingPage />}></Route>
+          <Route path="/contactme" element={<LandingPage />}></Route>
         </Routes>
       </MediaQuery>
 
