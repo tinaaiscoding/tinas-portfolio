@@ -7,9 +7,9 @@ import VoyageGallery from '../../ProjectsDir/Gallery/VoyageGallery';
 
 import classes from './Projects.module.css';
 
-const Projects = () => {
+const Projects = (props) => {
   return (
-    <div id={classes.projectsPage}>
+    <div id={classes.projectsPage} className={props.padding}>
       <MobileCard>
         <h3>PROJECTS</h3>
         <TTTGallery className={classes.gallery}/>
