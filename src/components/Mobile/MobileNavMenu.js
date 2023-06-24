@@ -41,7 +41,7 @@ const MobileNavMenu = () => {
             </li>
           </ul>
 
-          <div className={classes.backdrop}></div>
+          <div className={classes.backdrop} onClick={deactivateMenuHandler}></div>
         </div>
       ) : (
         <div className={classes.menuIcon}>

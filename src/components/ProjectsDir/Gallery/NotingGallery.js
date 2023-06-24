@@ -10,13 +10,13 @@ import noting5 from '../../../images/projectScreenshots/noting/noting5.png';
 import noting6 from '../../../images/projectScreenshots/noting/noting6.png';
 import noting7 from '../../../images/projectScreenshots/noting/noting7.png';
 
-const NotingGallery = () => {
+const NotingGallery = (props) => {
   return (
     <Swiper
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
+      className={`mySwiper ${props.className}`}
     >
       <SwiperSlide>
         <img src={noting1} alt="landing-page" />

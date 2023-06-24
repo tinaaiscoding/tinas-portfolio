@@ -9,13 +9,13 @@ import ttt4 from '../../../images/projectScreenshots/tic-tac-toe/ttt4.png';
 import ttt5 from '../../../images/projectScreenshots/tic-tac-toe/ttt5.png';
 import ttt6 from '../../../images/projectScreenshots/tic-tac-toe/ttt6.png';
 
-const TTTGallery = () => {
+const TTTGallery = (props) => {
   return (
     <Swiper
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
+      className={`mySwiper ${props.className}`}
     >
       <SwiperSlide>
         <img src={ttt1} alt="enter-players-name" />

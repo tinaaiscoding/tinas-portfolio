@@ -12,13 +12,13 @@ import pb7 from '../../../images/projectScreenshots/pokebattles/pb7.png';
 import pb8 from '../../../images/projectScreenshots/pokebattles/pb8.png';
 import pb9 from '../../../images/projectScreenshots/pokebattles/pb9.png';
 
-const PokeBattlesGallery = () => {
+const PokeBattlesGallery = (props) => {
   return (
     <Swiper
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
+      className={`mySwiper ${props.className}`}
     >
       <SwiperSlide>
         <img src={pb1} alt="landing-page" />

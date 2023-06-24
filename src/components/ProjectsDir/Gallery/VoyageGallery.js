@@ -10,13 +10,13 @@ import voyage5 from '../../../images/projectScreenshots/voyage/voyage5.png';
 import voyage6 from '../../../images/projectScreenshots/voyage/voyage6.png';
 import voyage7 from '../../../images/projectScreenshots/voyage/voyage7.png';
 
-const VoyageGallery = () => {
+const VoyageGallery = (props) => {
   return (
     <Swiper
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
+      className={`mySwiper ${props.className}`}
     >
       <SwiperSlide>
         <img src={voyage1} alt="landing-page" />

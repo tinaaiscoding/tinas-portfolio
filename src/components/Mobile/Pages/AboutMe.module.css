@@ -4,7 +4,7 @@
 }
 
 #aboutMePage p{
-  font-size: 1.1ren;
-  letter-spacing: 1px;
-  line-height: 28px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  font-size: 1.1rem;
 }
