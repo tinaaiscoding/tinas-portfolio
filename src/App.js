@@ -2,9 +2,10 @@ import React from 'react';
 import MediaQuery from 'react-responsive';
 import { Routes, Route } from 'react-router-dom';
 
-import './App.css';
+import classes from './App.module.css'
 
 import LandingPage from './components/LandingPage/LandingPage';
+// import ProjectsDir from './components/ProjectsDir/ProjectsDir';
 import MobileLandingPage from './components/Mobile/MobileLandingPage/MobileLandingPage';
 import AboutMe from './components/Mobile/Pages/AboutMe';
 import Projects from './components/Mobile/Pages/Projects';
@@ -25,10 +26,10 @@ function App() {
       <MediaQuery maxWidth={1223}>
 
         <Routes>
-          <Route path="/" element={<MobileLandingPage />}></Route>
-          <Route path="/aboutme" element={<AboutMe />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/contactme" element={<ContactMe />}></Route>
+          <Route path="/" element={<MobileLandingPage padding={classes.padding} />}></Route>
+          <Route path="/aboutme" element={<AboutMe padding={classes.padding} />}></Route>
+          <Route path="/projects" element={<Projects padding={classes.padding} />}></Route>
+          <Route path="/contactme" element={<ContactMe padding={classes.padding} />}></Route>
         </Routes>
       </MediaQuery>
     </div>

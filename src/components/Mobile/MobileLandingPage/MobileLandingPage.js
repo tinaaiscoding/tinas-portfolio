@@ -11,7 +11,7 @@ import MobileSkills from './MobileSkills';
 import MobileContact from './MobileContact';
 import MobileFooter from './MobileFooter';
 
-const MobileLandingPage = () => {
+const MobileLandingPage = (props) => {
 
   return (
     <div id={classes.mobileLandingPage}>
@@ -20,11 +20,11 @@ const MobileLandingPage = () => {
       <MobileAboutMe />
       <TilesBg className={classes.bg} />
 
-      <MobileSummary padding={classes.padding}/>
-      <MobileGallery padding={classes.padding}/>
-      <MobileSkills padding={classes.padding}/>
-      <MobileContact padding={classes.padding}/>
-      <MobileFooter padding={classes.padding}/>
+      <MobileSummary padding={props.padding}/>
+      <MobileGallery padding={props.padding}/>
+      <MobileSkills padding={props.padding}/>
+      <MobileContact padding={props.padding}/>
+      <MobileFooter padding={props.padding}/>
     </div>
   );
 };

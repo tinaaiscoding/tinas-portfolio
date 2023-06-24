@@ -2,3 +2,9 @@
   background-color: #fff5f8;
   height: 100vh;
 }
+
+#aboutMePage p{
+  font-size: 1.1ren;
+  letter-spacing: 1px;
+  line-height: 28px;
+}

@@ -48,7 +48,7 @@ const AboutMe = (props) => {
             As a software engineer, I aspire to create beautiful and fun
             designs. I want to create meaningful work that makes people smile
             and have a useful impact on their business. To have a proud moment
-            to say, “Yea, I made all that!”
+            to say, “Yea, I made all that!”.
           </p>
 
           <p>
