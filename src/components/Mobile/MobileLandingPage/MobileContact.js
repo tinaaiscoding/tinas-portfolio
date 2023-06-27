@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactForm from '../../Dockbar/ContactMe/ContactForm';
+import ContactForm from '../../ContactForm';
 
 import classes from './MobileContact.module.css';
 

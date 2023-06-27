@@ -5,11 +5,11 @@ import { Routes, Route } from 'react-router-dom';
 import classes from './App.module.css'
 
 import LandingPage from './components/LandingPage/LandingPage';
-// import ProjectsDir from './components/ProjectsDir/ProjectsDir';
 import MobileLandingPage from './components/Mobile/MobileLandingPage/MobileLandingPage';
 import AboutMe from './components/Mobile/Pages/AboutMe';
 import Projects from './components/Mobile/Pages/Projects';
 import ContactMe from './components/Mobile/Pages/ContactMePage';
+import Credits from './components/Mobile/Pages/Credits';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/aboutme" element={<LandingPage />}></Route>
           <Route path="/projects" element={<LandingPage />}></Route>
           <Route path="/contactme" element={<LandingPage />}></Route>
+          <Route path="/credits" element={<LandingPage />}></Route>
         </Routes>
       </MediaQuery>
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe padding={classes.padding} />}></Route>
           <Route path="/projects" element={<Projects padding={classes.padding} />}></Route>
           <Route path="/contactme" element={<ContactMe padding={classes.padding} />}></Route>
+          <Route path="/credits" element={<Credits padding={classes.padding} />}></Route>
         </Routes>
       </MediaQuery>
     </div>

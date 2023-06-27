@@ -5,15 +5,15 @@
   left: 32.6%;
 }
 
-.credits {
+#creditsWindow .credits {
   height: 100%;
 }
 
-.creditsContent {
+#creditsWindow .creditsContent {
   padding-bottom: 5px;
 }
 
-.creditsContent a {
+#creditsWindow .creditsContent a {
   color: #46467a;
   font-size: 1.3rem;
   display: block;
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.creditsContent a:hover {
+#creditsWindow .creditsContent a:hover {
   color: #a580e4;
 }
 
