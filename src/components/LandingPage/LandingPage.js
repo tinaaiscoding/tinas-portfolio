@@ -6,7 +6,7 @@ import TilesBg from '../UI/TilesBg';
 import AboutMe from './AboutMe';
 import DesktopIcons from './DesktopIcons';
 import Dockbar from '../Dockbar/Dockbar';
-import ContactMeForm from '../Dockbar/ContactMeForm/ContactMeForm';
+import ContactMe from '../Dockbar/ContactMe/ContactMe';
 import ProjectsDir from '../ProjectsDir/ProjectsDir';
 import Credits from './Credits';
 
@@ -102,7 +102,7 @@ const LandingPage = () => {
       )} 
 
       {contactMeVisible && (
-        <ContactMeForm
+        <ContactMe
           className={contactMeActive ? classes.active : classes.inActive}
           onCloseWindow={closeContactMeHandler}
           onWindowClick={activeContactMeHandler}

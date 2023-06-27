@@ -9,7 +9,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import MobileLandingPage from './components/Mobile/MobileLandingPage/MobileLandingPage';
 import AboutMe from './components/Mobile/Pages/AboutMe';
 import Projects from './components/Mobile/Pages/Projects';
-import ContactMe from './components/Mobile/Pages/ContactMe';
+import ContactMe from './components/Mobile/Pages/ContactMePage';
 
 function App() {
   return (
