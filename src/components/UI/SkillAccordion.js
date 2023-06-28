@@ -22,6 +22,7 @@ const SkillAccordion = (props) => {
             <div className={classes.summaryList}>{props.children}</div>
           </div>
         </AccordionSummary>
+        
         <AccordionDetails className={classes.details}>
           <p>{props.text}</p>
         </AccordionDetails>
