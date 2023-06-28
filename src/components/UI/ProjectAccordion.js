@@ -9,19 +9,17 @@ import classes from './ProjectAccordion.module.css';
 const ProjectAccordion = (props) => {
   return (
     <div id={classes.projectAccordion}>
-      <Accordion className={classes.accordion}>
+      <Accordion>
         <AccordionSummary
-          className={classes.accordionSummary}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <div className={classes.summaryContent}>{props.projectName}</div>
+          <h2>{props.projectName}</h2>
         </AccordionSummary>
 
-        <AccordionDetails className={classes.details}>
-          <p>{props.projectSummary}</p>
-          {/* TODO: ADD GALLERY */}
+        <AccordionDetails>
+          <div className={classes.summaryText}>{props.projectSummary}</div>
           {props.gallery}
         </AccordionDetails>
       </Accordion>

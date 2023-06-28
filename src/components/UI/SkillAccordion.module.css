@@ -27,13 +27,13 @@
   align-self: center;
 }
 
-@media only screen and (max-width: 640px)  {
+@media only screen and (max-width: 640px) {
   #accordionDiv .summaryList {
     padding-left: 30px;
   }
 }
 
-@media only screen and (max-width: 499px)  {
+@media only screen and (max-width: 499px) {
   #accordionDiv .accordionSummary {
     flex-direction: column;
   }
@@ -41,7 +41,7 @@
   #accordionDiv .summaryContent {
     flex-direction: column;
   }
-  
+
   #accordionDiv img {
     width: 60px;
     margin-bottom: 5px;

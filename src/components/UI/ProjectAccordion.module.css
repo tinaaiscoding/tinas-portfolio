@@ -1,0 +1,34 @@
+#projectAccordion {
+  margin-bottom: 20px;
+}
+
+#projectAccordion h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  padding: 15px 25px;
+  color: #46467a;
+  letter-spacing: 1.8px;
+  font-weight: 400;
+}
+
+#projectAccordion .summaryText {
+  padding: 0 25px;
+  margin-bottom: 40px;
+}
+
+#projectAccordion p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  color: #46467a;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+@media only screen and (max-width: 500px)  {
+  #projectAccordion .summaryText {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+}

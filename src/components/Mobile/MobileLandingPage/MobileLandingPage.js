@@ -2,7 +2,6 @@ import React from 'react';
 
 import classes from './MobileLandingPage.module.css';
 
-import TilesBg from '../../UI/TilesBg';
 import MobileNavMenu from '../MobileNavMenu';
 import MobileAboutMe from './MobileAboutMe';
 import MobileSummary from './MobileSummary';
@@ -17,9 +16,7 @@ const MobileLandingPage = (props) => {
     <div id={classes.mobileLandingPage}>
       <MobileNavMenu />
  
-      <MobileAboutMe />
-      <TilesBg className={classes.bg} />
-
+      <MobileAboutMe/>
       <MobileSummary padding={props.padding}/>
       <MobileGallery padding={props.padding}/>
       <MobileSkills padding={props.padding}/>

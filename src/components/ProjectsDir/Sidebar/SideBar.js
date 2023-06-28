@@ -31,14 +31,14 @@ const SideBar = (props) => {
         <h3>TIC-TAC-TOE</h3>
         <p>
           This was my first project with General Assembly. The requirement was
-          to recreate the classic Tic-Tac-Toe with JavaScript.{' '}
+          to recreate the classic Tic-Tac-Toe with JavaScript.
         </p>
 
         <p>
           Just like how the classic Tic-Tae-Toe game is played, the main
           objective is to get three tokens in a row, either horizontally,
           vertically, or diagonally. Additionally, players can enter their names
-          and view the scoreboard.{' '}
+          and view the scoreboard.
         </p>
 
         <p>
