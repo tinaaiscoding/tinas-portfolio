@@ -65,6 +65,9 @@ const LandingPage = () => {
     setCreditsActive(true);
   };
 
+  console.log(aboutMeActive)
+  console.log(projectsDirActive)
+
   return (
     <div id={classes.landingPage}>
       <DesktopIcons

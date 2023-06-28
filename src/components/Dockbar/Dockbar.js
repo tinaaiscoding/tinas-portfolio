@@ -16,7 +16,6 @@ const Dockbar = (props) => {
     props.setContactMeVisible(true);
     props.setContactMeActive(true);
     props.setAboutMeActive(false);
-    props.setResumeActive(false);
     props.setCreditsActive(false);
     props.setProjectsDirActive(false);
   };
@@ -25,7 +24,6 @@ const Dockbar = (props) => {
     props.setAboutMeVisible(true);
     props.setAboutMeActive(true);
     props.setContactMeActive(false);
-    props.setResumeActive(false);
     props.setCreditsActive(false);
     props.setProjectsDirActive(false);
   };

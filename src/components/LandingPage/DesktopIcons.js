@@ -16,7 +16,6 @@ const DesktopIcons = (props) => {
     props.setProjectsDirVisible(true);
     props.setProjectsDirActive(true);
     props.setCreditsActive(false);
-    props.setResumeActive(false);
     props.setContactMeActive(false);
     props.setAboutMeActive(false);
   };
@@ -25,7 +24,6 @@ const DesktopIcons = (props) => {
     props.setCreditsVisible(true);
     props.setCreditsActive(true);
     props.setProjectsDirActive(false);
-    props.setResumeActive(false);
     props.setContactMeActive(false);
     props.setAboutMeActive(false);
   };
