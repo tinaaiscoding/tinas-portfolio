@@ -6,9 +6,9 @@ import classes from './AboutMe.module.css';
 
 const AboutMe = (props) => {
   return (
-    <div>
+    <div id={classes.aboutMePage}>
       <MobileNavMenu />
-      <div id={classes.aboutMePage} className={props.padding}>
+      <div id={classes.aboutMe} className={props.padding}>
         <MobileCard>
           <h3>ABOUT ME</h3>
           <p>

@@ -10,7 +10,7 @@ const ContactMePage = (props) => {
     <div>
       <MobileNavMenu />
       <div id={classes.contactMePage} className={props.padding}>
-        <MobileCard className={classes.card}>
+        <MobileCard>
           <ContactForm />
         </MobileCard>
       </div>

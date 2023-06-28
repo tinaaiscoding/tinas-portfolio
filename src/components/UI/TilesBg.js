@@ -12,7 +12,7 @@ const TilesBg = (props) => {
     if (docWidth < 600) {
       setSize(50);
       setColumns(8);
-      setRows(8);
+      setRows(12);
     } else if (docWidth > 600 && docWidth < 900) {
       setSize(50);
       setColumns(10);
