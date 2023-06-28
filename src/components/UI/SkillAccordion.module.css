@@ -7,6 +7,7 @@
 #accordionDiv .summaryContent {
   display: flex;
   width: 100%;
+  margin: 0 auto;
 }
 
 #accordionDiv .summaryList {
@@ -27,19 +28,23 @@
   align-self: center;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 500px) and (max-width: 640px) {
   #accordionDiv .summaryList {
     padding-left: 30px;
   }
 }
 
 @media only screen and (max-width: 499px) {
+  #accordionDiv .accordion {
+    padding: 15px;
+  }
+  
   #accordionDiv .accordionSummary {
     flex-direction: column;
   }
 
-  #accordionDiv .summaryContent {
-    flex-direction: column;
+  #accordionDiv .summaryList {
+    padding: 15px;
   }
 
   #accordionDiv img {

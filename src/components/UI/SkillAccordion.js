@@ -18,11 +18,11 @@ const SkillAccordion = (props) => {
         >
           <div className={classes.summaryContent}>
             <img src={props.img} alt={props.imgName} />
-            {/* <h3>{props.heading}</h3> */}
+
             <div className={classes.summaryList}>{props.children}</div>
           </div>
         </AccordionSummary>
-        
+
         <AccordionDetails className={classes.details}>
           <p>{props.text}</p>
         </AccordionDetails>
