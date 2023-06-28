@@ -1,5 +1,7 @@
 import React from 'react';
 import MobileCard from '../../UI/MobileCard';
+import MobileNavMenu from '../MobileNavMenu';
+
 import NotingGallery from '../../ProjectsDir/Gallery/NotingGallery';
 import PokeBattlesGallery from '../../ProjectsDir/Gallery/PokeBattlesGallery';
 import TTTGallery from '../../ProjectsDir/Gallery/TTTGallery';
@@ -113,20 +115,23 @@ const Projects = (props) => {
   ];
 
   return (
-    <div id={classes.projectsPage} className={props.padding}>
-      <MobileCard>
-        <h3>PROJECTS</h3>
-        {projects.map((project, index) => {
-          return (
-            <ProjectAccordion
-              key={index}
-              projectName={project.projectName}
-              projectSummary={project.projectSummary}
-              gallery={project.projectGallery}
-            />
-          );
-        })}
-      </MobileCard>
+    <div>
+      <MobileNavMenu />
+      <div id={classes.projectsPage} className={props.padding}>
+        <MobileCard>
+          <h3>PROJECTS</h3>
+          {projects.map((project, index) => {
+            return (
+              <ProjectAccordion
+                key={index}
+                projectName={project.projectName}
+                projectSummary={project.projectSummary}
+                gallery={project.projectGallery}
+              />
+            );
+          })}
+        </MobileCard>
+      </div>
     </div>
   );
 };

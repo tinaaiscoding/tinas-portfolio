@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 import classes from './MobileGallery.module.css'
 
@@ -57,6 +58,8 @@ const MobileGallery = (props) => {
             <img src={voyage7} alt="" />
           </SwiperSlide>
         </Swiper>
+
+        <Link to="/projects" className={classes.link}>VIEW ALL PROJECTS</Link>
       </div>
     </div>
   );

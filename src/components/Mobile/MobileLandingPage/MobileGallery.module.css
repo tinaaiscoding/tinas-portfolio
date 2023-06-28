@@ -10,3 +10,16 @@
   margin-bottom: 15px;
   width: 100%;
 }
+
+#mobileGallery .link {
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #46467a;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+#mobileGallery .link:hover {
+  text-decoration: underline;
+}

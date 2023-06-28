@@ -28,6 +28,9 @@ const MobileNavMenu = () => {
               </span>
             </li>
             <li>
+            <Link to="/" className={classes.listText}>HOME</Link>
+            </li>
+            <li>
             <Link to="/aboutme" className={classes.listText}>ABOUT ME</Link>
             </li>
             <li>
