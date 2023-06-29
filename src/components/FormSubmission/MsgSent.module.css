@@ -1,0 +1,35 @@
+.msgSent {
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.msgSent img {
+  width: 90px;
+}
+
+.msgSent p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 15px 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.msgSent .textBox {
+  margin-top: 20px;
+}
+
+
+.msgSent a {
+  color: #46467a;
+  font-size: 1rem;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.msgSent a:hover {
+  color: #a580e4;
+}

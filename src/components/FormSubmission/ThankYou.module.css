@@ -1,0 +1,10 @@
+.mobileThankYou, .desktopThankYou {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktopMsg {
+  margin: 50px auto;
+}

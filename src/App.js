@@ -10,6 +10,7 @@ import AboutMe from './components/Mobile/Pages/AboutMe';
 import Projects from './components/Mobile/Pages/Projects';
 import ContactMe from './components/Mobile/Pages/ContactMePage';
 import Credits from './components/Mobile/Pages/Credits';
+import ThankYou from './components/FormSubmission/ThankYou';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects" element={<LandingPage />}></Route>
           <Route path="/contactme" element={<LandingPage />}></Route>
           <Route path="/credits" element={<LandingPage />}></Route>
+          <Route path="/thankyou" element={<ThankYou />}></Route>
         </Routes>
       </MediaQuery>
 
@@ -32,6 +34,7 @@ function App() {
           <Route path="/projects" element={<Projects padding={classes.padding} />}></Route>
           <Route path="/contactme" element={<ContactMe padding={classes.padding} />}></Route>
           <Route path="/credits" element={<Credits padding={classes.padding} />}></Route>
+          <Route path="/thankyou" element={<ThankYou padding={classes.padding}/>}></Route>
         </Routes>
       </MediaQuery>
     </div>
