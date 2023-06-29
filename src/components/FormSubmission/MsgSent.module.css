@@ -19,7 +19,6 @@
   margin-top: 20px;
 }
 
-
 .msgSent a {
   color: #46467a;
   font-size: 1rem;
@@ -32,4 +31,20 @@
 
 .msgSent a:hover {
   color: #a580e4;
+}
+
+/***************************************************/
+/****************** MEDIA QUERIES ******************/
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+  .msgSent {
+    padding: 25px 0;
+  }
+
+  .msgSent p {
+    font-size: 1rem;
+  }
+  .msgSent a {
+    font-size: 0.9rem;
+  }
 }
