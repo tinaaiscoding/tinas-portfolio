@@ -16,7 +16,7 @@ const AboutMe = (props) => {
             and the hospitality industry for the past decade, I've reached a
             point where I'm ready for my next big adventure.
           </p>
-
+          <br />
           <p>
             That's when I stumbled upon my passion for coding. It has naturally
             become something I look forward to every day. I relish the feeling
@@ -24,7 +24,7 @@ const AboutMe = (props) => {
             creative thinking skills. This newfound passion led me to enrol in a
             software engineering bootcamp at General Assembly.
           </p>
-
+          <br />
           <p>
             I thrive on creating delightful designs, solving complex problems,
             and making a positive impact. From crafting fun and beautiful user
@@ -32,7 +32,7 @@ const AboutMe = (props) => {
             fulfilment in using my skills to bring joy and drive meaningful
             change.
           </p>
-
+          <br />
           <p>
             I'm a natural explorer, always eager to dive into new experiences—
             whether it's exploring different cuisines, discovering uncharted
