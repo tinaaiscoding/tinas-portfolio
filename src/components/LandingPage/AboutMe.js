@@ -10,8 +10,8 @@ const AboutMe = (props) => {
       onCloseWindow={props.onCloseWindow}
       onWindowClick={props.onWindowClick}
       style={props.style}
-      actionBar=''
-      content=''
+      actionBar=""
+      content=""
     >
       <div id={classes.aboutMe}>
         <div className={classes.aboutMeHeader}>
@@ -31,33 +31,35 @@ const AboutMe = (props) => {
         <div className={classes.aboutMeContent}>
           <h3 id="about-me-section">ABOUT ME</h3>
           <p>
-            Having built my professional skills in customer experience roles and
-            the hospitality industry over the past 10 years, I decided it was
-            time for my next adventure.
+            Having developed my professional skills in customer experience roles
+            and the hospitality industry for the past decade, I've reached a
+            point where I'm ready for my next big adventure.
           </p>
 
           <p>
-            That's how I discovered my love for coding. It has naturally become
-            something I look forward to every day. I enjoy the feeling of
-            accomplishment every time I get a piece of code to work, and the
-            chance to apply my creative thinking skills. This led me to enrol in
-            a software engineering bootcamp at General Assembly.
+            That's when I stumbled upon my passion for coding. It has naturally
+            become something I look forward to every day. I relish the feeling
+            of accomplishment when I crack a piece of code and get to flex my
+            creative thinking skills. This newfound passion led me to enrol in a
+            software engineering bootcamp at General Assembly.
           </p>
 
           <p>
-            As a software engineer, I aspire to create beautiful and fun
-            designs. I want to create meaningful work that makes people smile
-            and have a useful impact on their business. To have a proud moment
-            to say, “Yea, I made all that!”.
+            I thrive on creating delightful designs, solving complex problems,
+            and making a positive impact. From crafting fun and beautiful user
+            experiences to tackling intricate challenges. I find immense
+            fulfilment in using my skills to bring joy and drive meaningful
+            change.
           </p>
 
           <p>
-            I love exploring new things whether that'd be food, places to
-            travel, hobbies, skills, ways of thinking, or ways of working. I
-            have really enjoyed my experience living and working in the UK and
-            I'm open to any opportunities for work in Europe. I take lots of
-            inspiration from others and hope to work with a supportive and open
-            team.
+            I'm a natural explorer, always eager to dive into new experiences—
+            whether it's exploring different cuisines, discovering uncharted
+            travel destinations, pursuing diverse hobbies, or adopting
+            innovative work methodologies. I've had the pleasure of living and
+            working in the UK, and I'm open to exciting work opportunities
+            across Australia and Europe. Drawing inspiration from others, I'm
+            keen to collaborate with a supportive and open-minded team.
           </p>
         </div>
       </div>
