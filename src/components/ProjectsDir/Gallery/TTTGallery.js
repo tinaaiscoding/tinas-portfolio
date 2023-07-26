@@ -15,7 +15,8 @@ const TTTGallery = (props) => {
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className={`mySwiper ${props.className}`}
+      id={props.id}
+      className='mySwiper'
     >
       <SwiperSlide>
         <img src={ttt1} alt="enter-players-name" />

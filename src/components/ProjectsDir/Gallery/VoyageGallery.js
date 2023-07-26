@@ -16,7 +16,8 @@ const VoyageGallery = (props) => {
       navigation={true}
       pagination={true}
       modules={[Pagination, Navigation]}
-      className={`mySwiper ${props.className}`}
+      id={props.id}
+      className='mySwiper'
     >
       <SwiperSlide>
         <img src={voyage1} alt="landing-page" />
