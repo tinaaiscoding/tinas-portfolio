@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactForm from '../../ContactForm';
+import ContactForm from '../../Content/ContactForm';
 
 import classes from './MobileContact.module.css';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Window from '../../UI/Window';
-import ContactForm from '../../ContactForm';
+import ContactForm from '../../Content/ContactForm'
 
 import classes from './ContactMe.module.css';
 

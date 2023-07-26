@@ -1,6 +1,6 @@
 import React from 'react';
 import MobileCard from '../../UI/MobileCard';
-import ContactForm from '../../ContactForm';
+import ContactForm from '../../Content/ContactForm';
 import MobileNavMenu from '../MobileNavMenu';
 
 import classes from './ContactMePage.module.css';

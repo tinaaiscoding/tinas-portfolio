@@ -1,6 +1,6 @@
 import React from 'react';
 import Window from '../UI/Window';
-import CreditsContent from '../CreditsContent';
+import CreditsContent from '../Content/CreditsContent';
 
 import classes from './Credits.module.css';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import MobileCard from '../../UI/MobileCard';
-import CreditsContent from '../../CreditsContent';
+import CreditsContent from '../../Content/CreditsContent';
 import MobileNavMenu from '../MobileNavMenu';
 
 const Credits = (props) => {
