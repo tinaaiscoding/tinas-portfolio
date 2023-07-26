@@ -1,4 +1,7 @@
 .projectIcons {
-  width: 100%;
+  width: 80%;
   text-align: center;
+  display: flex;
+  overflow-y: scroll;
 }
+

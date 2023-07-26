@@ -15,6 +15,7 @@ const ProjectsDir = (props) => {
   const [notingClicked, setNotingClicked] = useState(false);
   const [pokeBattlesClicked, setPokeBattlesClicked] = useState(false);
   const [voyageClicked, setVoyageClicked] = useState(false);
+  const [GAHackathonClicked, setGAHackathonClicked] = useState(false);
 
   return (
     <Window
@@ -39,17 +40,21 @@ const ProjectsDir = (props) => {
                 notingClicked={notingClicked}
                 pokeBattlesClicked={pokeBattlesClicked}
                 voyageClicked={voyageClicked}
-              ></Gallery>
+                GAHackathonClicked={GAHackathonClicked}
+              />
             </div>
 
             <div className={classes.projectIcons}>
+            <span class="material-symbols-outlined">chevron_left</span>
               <ProjectIcons
                 setDefaultSlide={setDefaultSlide}
                 setTttClicked={setTttClicked}
                 setNotingClicked={setNotingClicked}
                 setPokeBattlesClicked={setPokeBattlesClicked}
                 setVoyageClicked={setVoyageClicked}
-              ></ProjectIcons>
+                setGAHackathonClicked={setGAHackathonClicked}
+              />
+              <span class="material-symbols-outlined">navigate_next</span>
             </div>
           </div>
         </div>

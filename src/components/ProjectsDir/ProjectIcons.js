@@ -7,6 +7,7 @@ import ttt from '../../images/icons/ttt.png';
 import noting from '../../images/icons/noting1.png';
 import pokebattles from '../../images/icons/pokebattles.png';
 import voyage from '../../images/icons/voyage.png';
+import hackathon from '../../images/icons/hackathon.png';
 
 const ProjectIcons = (props) => {
   const showTTTHandler = () => {
@@ -15,6 +16,7 @@ const ProjectIcons = (props) => {
     props.setNotingClicked(false);
     props.setPokeBattlesClicked(false);
     props.setVoyageClicked(false);
+    props.setGAHackathonClicked(false);
   };
 
   const showNotingHandler = () => {
@@ -23,6 +25,7 @@ const ProjectIcons = (props) => {
     props.setNotingClicked(true);
     props.setPokeBattlesClicked(false);
     props.setVoyageClicked(false);
+    props.setGAHackathonClicked(false);
   };
 
   const showPokeBattlesHandler = () => {
@@ -31,6 +34,7 @@ const ProjectIcons = (props) => {
     props.setNotingClicked(false);
     props.setPokeBattlesClicked(true);
     props.setVoyageClicked(false);
+    props.setGAHackathonClicked(false);
   };
 
   const showVoyageHandler = () => {
@@ -39,9 +43,19 @@ const ProjectIcons = (props) => {
     props.setNotingClicked(false);
     props.setPokeBattlesClicked(false);
     props.setVoyageClicked(true);
+    props.setGAHackathonClicked(false);
+  };
+
+  const showGAHackathonHandler = () => {
+    props.setDefaultSlide(false);
+    props.setTttClicked(false);
+    props.setNotingClicked(false);
+    props.setPokeBattlesClicked(false);
+    props.setVoyageClicked(false);
+    props.setGAHackathonClicked(true);
   };
   return (
-    <div className={classes.projectIcons}>
+    <div className={`${classes.projectIcons} ${classes.scrollbar}`}>
       <a
         onClick={(event) => event.preventDefault()}
         onDoubleClick={() => {
@@ -94,6 +108,20 @@ const ProjectIcons = (props) => {
           name="voyage"
           imgSrc={voyage}
           onIconClick={showVoyageHandler}
+        ></ProjectIcon>
+      </a>
+
+      <a
+        onClick={(event) => event.preventDefault()}
+        onDoubleClick={() => {
+          window.location = 'https://jetia.vercel.app/';
+        }}
+        href="https://jetia.vercel.app/"
+      >
+        <ProjectIcon
+          name="GA Hackathon"
+          imgSrc={hackathon}
+          onIconClick={showGAHackathonHandler}
         ></ProjectIcon>
       </a>
     </div>

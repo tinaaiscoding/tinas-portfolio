@@ -11,6 +11,8 @@ import TTTGallery from './TTTGallery';
 import NotingGallery from './NotingGallery';
 import PokeBattlesGallery from './PokeBattlesGallery';
 import VoyageGallery from './VoyageGallery';
+import GAHackathonGallery from './GAHackathonGallery';
+
 
 const Gallery = (props) => {
   return (
@@ -37,6 +39,7 @@ const Gallery = (props) => {
       {props.notingClicked && <NotingGallery />}
       {props.pokeBattlesClicked && <PokeBattlesGallery />}
       {props.voyageClicked && <VoyageGallery />}
+      {props.GAHackathonClicked && <GAHackathonGallery />}
     </div>
   );
 };

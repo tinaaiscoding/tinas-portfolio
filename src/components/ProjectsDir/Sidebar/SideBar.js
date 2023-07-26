@@ -12,6 +12,7 @@ const SideBar = (props) => {
   const [visibleNotingLeft, setVisibleNotingLeft] = useState(false);
   const [visiblePokeBattlesLeft, setVisiblePokeBattlesLeft] = useState(false);
   const [visibleVoyageLeft, setVisibleVoyageLeft] = useState(false);
+  const [visibleGAHackathonLeft, setVisibleGAHackathonLeft] = useState(false);
 
   return (
     <div id="sidebar">
@@ -20,6 +21,7 @@ const SideBar = (props) => {
         <li onClick={() => setVisibleNotingLeft(true)}>NOTING</li>
         <li onClick={() => setVisiblePokeBattlesLeft(true)}>POKÉ BATTLES</li>
         <li onClick={() => setVisibleVoyageLeft(true)}>VOYAGE</li>
+        <li onClick={() => setVisibleGAHackathonLeft(true)}>GA HACKTHON</li>
       </ul>
 
       <Sidebar
@@ -64,6 +66,17 @@ const SideBar = (props) => {
       >
         <h3>{projects[3].projectName}</h3>
         {projects[3].projectSummary}
+      </Sidebar>
+
+      <Sidebar
+        id={classes.sidebar4}
+        visible={visibleGAHackathonLeft}
+        position="left"
+        onHide={() => setVisibleGAHackathonLeft(false)}
+        appendTo={document.querySelector('#sidebar')}
+      >
+        <h3>{projects[4].projectName}</h3>
+        {projects[4].projectSummary}
       </Sidebar>
     </div>
   );
